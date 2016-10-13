@@ -1,0 +1,13 @@
+<PAW_Sales_Tax_Codes xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Sales_Tax_Code xsi:type="paw:sales_tax_code">
+	<Authorities>
+	<Authority>
+	<ID xsi:type="paw:id">ITBMS</ID>
+	<Description>ITBMS</Description>
+	<Rate>7.000000</Rate>
+	<AccountID xsi:type="paw:id">2310</AccountID>
+	</Authority>
+</Authorities></PAW_Sales_Tax_Code>
+</PAW_Sales_Tax_Codes>

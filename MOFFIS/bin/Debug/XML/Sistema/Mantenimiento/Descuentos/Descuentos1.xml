@@ -1,0 +1,1 @@
+﻿<PAW_Descuentos xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes"><PAW_Descuento><DescuentoID>Descuento1</DescuentoID><Monto>1</Monto></PAW_Descuento><PAW_Descuento><DescuentoID>Descuento2</DescuentoID><Monto>2</Monto></PAW_Descuento></PAW_Descuentos>

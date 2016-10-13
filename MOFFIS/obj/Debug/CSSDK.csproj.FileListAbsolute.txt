@@ -1,0 +1,39 @@
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmAccountingPeriods.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmActiveGLAccts.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmAging.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmAppProperties.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmCompany_Password.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmInvoices.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmMain.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmMaintGLAccts.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmNewCustInvoices.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.frmOpenCompany.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.Login.resources
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.csproj.GenerateResource.Cache
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\bin\Debug\CSSDK.exe
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\bin\Debug\CSSDK.pdb
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.exe
+C:\Users\JoseM\Documents\Sage\Peachtree SDK\COM Samples\2011\Sample Code\C_Sharp .Net Code\CSSDK\obj\Debug\CSSDK.pdb
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.exe
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.pdb
+C:\BS&C\ProyectoLuis\CSSDK - Copy\bin\Debug\CSSDK.exe
+C:\BS&C\ProyectoLuis\CSSDK - Copy\bin\Debug\CSSDK.pdb
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\ResolveAssemblyReference.cache
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmAccountingPeriods.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmActiveGLAccts.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmAging.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmAppProperties.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmCompany_Password.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmInvoices.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmMain.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmMaintGLAccts.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmNewCustInvoices.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.frmOpenCompany.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.Login.resources
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\ResGen.read.1.tlog
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\ResGen.write.1.tlog
+C:\BS&C\ProyectoLuis\CSSDK - Copy\bin\Debug\TFHKADIR.dll
+C:\BS&C\ProyectoLuis\CSSDK - Copy\obj\Debug\CSSDK.Properties.Resources.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Debug\CSSDK.exe
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Debug\CSSDK.pdb

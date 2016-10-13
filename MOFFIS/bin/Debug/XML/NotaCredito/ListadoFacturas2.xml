@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PAW_Invoices xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>016-00000656</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>016-00000657</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>016-00000658</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo3</Customer_ID>
+	<Invoice_Number>016-00000659</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo3</Customer_ID>
+	<Invoice_Number>016-00000660</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo3</Customer_ID>
+	<Invoice_Number>016-00000661</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo3</Customer_ID>
+	<Invoice_Number>016-00000662</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo</Customer_ID>
+	<Customer_Name>nuevo</Customer_Name>
+	<Invoice_Number>016-00000663</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo</Customer_ID>
+	<Customer_Name>nuevo</Customer_Name>
+	<Invoice_Number>016-00000664</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo2</Customer_ID>
+	<Invoice_Number>016-00000665</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo</Customer_ID>
+	<Customer_Name>nuevo</Customer_Name>
+	<Invoice_Number>016-00000666</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo</Customer_ID>
+	<Customer_Name>nuevo</Customer_Name>
+	<Invoice_Number>016-00000667</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo</Customer_ID>
+	<Customer_Name>nuevo</Customer_Name>
+	<Invoice_Number>016-00000668</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo</Customer_ID>
+	<Customer_Name>nuevo</Customer_Name>
+	<Invoice_Number>016-00000669</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo</Customer_ID>
+	<Customer_Name>nuevo</Customer_Name>
+	<Invoice_Number>016-00000670</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000607</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-37.74</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000608</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000609</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-2.56</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000610</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000611</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-27.95</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000612</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000613</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-3.99</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000614</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-31.94</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>420-00000615</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>-31.94</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>NC-016-00000106</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCNC</Displayed_Terms>
+	<CreditMemoType>TRUE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>56.98</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>NC-420-00000219</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCNC</Displayed_Terms>
+	<CreditMemoType>TRUE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>56.98</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>NC-420-00000219</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCNC</Displayed_Terms>
+	<CreditMemoType>TRUE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>25.95</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>NC-420-00000219</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCNC</Displayed_Terms>
+	<CreditMemoType>TRUE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>399.25</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>NC-420-00000219</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCNC</Displayed_Terms>
+	<CreditMemoType>TRUE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>36.58</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>NC-420-00000219</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<Displayed_Terms>DOCNC</Displayed_Terms>
+	<CreditMemoType>TRUE</CreditMemoType>
+	<SalesLines>
+	<SalesLine>
+	<Amount>31.94</Amount>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+</PAW_Invoices>

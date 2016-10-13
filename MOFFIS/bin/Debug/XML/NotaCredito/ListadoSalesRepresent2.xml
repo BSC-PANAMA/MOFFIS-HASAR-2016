@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PAW_Employees xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Employee xsi:type="paw:employee">
+	<ID xsi:type="paw:id">CD-236</ID>
+	<Name>CARLOS VILLAMONTE</Name>
+	<isSalesRep>TRUE</isSalesRep>
+	<EmployeeGUID>{4E6B9F1F-E7EC-47DF-BEF4-7371B7E775E3}</EmployeeGUID>
+</PAW_Employee>
+<PAW_Employee xsi:type="paw:employee">
+	<ID xsi:type="paw:id">FG-278</ID>
+	<Name>PEDRO BUENDIA</Name>
+	<isSalesRep>TRUE</isSalesRep>
+	<EmployeeGUID>{8251A106-79A9-44B2-80D3-D19580B196B0}</EmployeeGUID>
+</PAW_Employee>
+<PAW_Employee xsi:type="paw:employee">
+	<ID xsi:type="paw:id">sdasfsfafsfsddsfasfd</ID>
+	<Name>sdfsfsfsfsfsfsf s. sdfsfsfdsfsfsfsfsfds sdsd</Name>
+	<isSalesRep>TRUE</isSalesRep>
+	<EmployeeGUID>{E71EBAA2-67B8-46E6-B5D1-EE3FB95953BE}</EmployeeGUID>
+</PAW_Employee>
+</PAW_Employees>

@@ -1,0 +1,70 @@
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\bin\Debug\Interop.PeachwServer.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\bin\Debug\TFHKADIR.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\obj\Debug\ResolveAssemblyReference.cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Form1.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Properties.Resources.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csproj.GenerateResource.Cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\bin\Debug\Interop.PeachwServer.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\bin\Debug\TFHKADIR.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\obj\Debug\ResolveAssemblyReference.cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Form1.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Properties.Resources.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csproj.GenerateResource.Cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_13-12-13\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\Interop.PeachwServer.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\TFHKADIR.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\ResolveAssemblyReference.cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Form1.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Properties.Resources.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csproj.GenerateResource.Cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2014_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\Interop.PeachwServer.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\TFHKADIR.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\ResolveAssemblyReference.cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Form1.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Properties.Resources.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csproj.GenerateResource.Cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_64_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\Interop.PeachwServer.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\TFHKADIR.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\ResolveAssemblyReference.cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Form1.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Properties.Resources.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csproj.GenerateResource.Cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2015_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe.config
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.pdb
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\bin\Debug\TFHKADIR.dll
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csprojResolveAssemblyReference.cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Form1.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Properties.Resources.resources
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csproj.GenerateResource.Cache
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.exe
+C:\BS&C\VERSIONES FINALES\VERSION FINAL MOFFIS HASAR\VERSION_2016_v3_32_versionfinal_03-13-14\MOFFIS\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.pdb
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe.config
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.pdb
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\bin\Debug\TFHKADIR.dll
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csprojResolveAssemblyReference.cache
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Form1.resources
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Properties.Resources.resources
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csproj.GenerateResource.Cache
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.exe
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.pdb

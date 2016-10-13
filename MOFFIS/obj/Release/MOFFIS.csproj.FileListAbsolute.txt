@@ -1,0 +1,46 @@
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\ResolveAssemblyReference.cache
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.AboutBox1.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.edad.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmAccountingPeriods.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmActiveGLAccts.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmAging.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmAppProperties.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmCompany_Password.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmCrearInvoices.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmInvoices.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmLogin.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmMain.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmMaintGLAccts.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmMantenimiento.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmNewCustInvoices.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmNotasCredito.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmOpenCompany.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmPrincipal.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.Login.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\MOFFIS.Properties.Resources.resources
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\ResGen.read.1.tlog
+C:\BS&C\Proyecto MOFFIS\Proyecto MOFFIS\MOFFIS\MOFFIS\MOFFIS\obj\Release\ResGen.write.1.tlog
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\ResolveAssemblyReference.cache
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.AboutBox1.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmAccountingPeriods.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmActiveGLAccts.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmAging.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmAppProperties.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmBSC.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmCompany_Password.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmCrearInvoices.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmInvoices.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmLogin.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmMain.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmMaintGLAccts.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmMantenimiento.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmMantenimientoCompania_Usuarios.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmNewCustInvoices.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmNoFiscal_Re_Imprimir.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmNotasCredito.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmNotasDebito.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmOpenCompany.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.frmPrincipal.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.Login.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.Properties.Resources.resources
+C:\BS&C\Proyectos\03_MOFFIS\POSPANAMA\MOFFIS2008\MOFFIS\MOFFIS\obj\Release\MOFFIS.csproj.GenerateResource.Cache

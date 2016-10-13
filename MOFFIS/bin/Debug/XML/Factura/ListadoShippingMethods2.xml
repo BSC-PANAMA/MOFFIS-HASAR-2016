@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PAW_Shipping_Methods xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>0</Number>
+	<ShippingMethod>Airborne</ShippingMethod>
+	<GUID>{AC3691C9-32FE-425a-B4D0-0EEB8BB51239}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>1</Number>
+	<ShippingMethod>Courier</ShippingMethod>
+	<GUID>{06FDC3F5-F005-4ee8-8BFD-D4F5998CFD60}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>2</Number>
+	<ShippingMethod>Hand Deliver</ShippingMethod>
+	<GUID>{38D16986-FAD3-4d79-995E-A147C7891A7F}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>3</Number>
+	<ShippingMethod>Cust. Pickup</ShippingMethod>
+	<GUID>{4F12CB9B-CA8C-4069-B2D7-BF573791271C}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>4</Number>
+	<ShippingMethod>UPS Ground</ShippingMethod>
+	<GUID>{FC6739F4-A547-4796-A082-B80783FCDE1F}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>5</Number>
+	<ShippingMethod>UPS Red</ShippingMethod>
+	<GUID>{B8F22B42-838B-4508-AD4F-4A9674172E31}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>6</Number>
+	<ShippingMethod>UPS Blue</ShippingMethod>
+	<GUID>{8779CB80-1D56-4365-85B5-A3A5351E7715}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>7</Number>
+	<ShippingMethod>US Mail</ShippingMethod>
+	<GUID>{77848D14-582F-46b3-82D4-E15299DE0D93}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>8</Number>
+	<ShippingMethod>Fed-EX</ShippingMethod>
+	<GUID>{77639000-4E44-4764-9DDD-B6ADA5F05DBE}</GUID>
+</PAW_Shipping_Method>
+<PAW_Shipping_Method xsi:type="paw:ship_method">
+	<Number>9</Number>
+	<ShippingMethod>Best Way</ShippingMethod>
+	<GUID>{454D67AC-312B-4bb1-8B43-B6E6D90092FE}</GUID>
+</PAW_Shipping_Method>
+</PAW_Shipping_Methods>

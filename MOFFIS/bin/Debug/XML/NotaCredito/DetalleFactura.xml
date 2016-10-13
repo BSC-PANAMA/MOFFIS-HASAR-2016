@@ -1,0 +1,80 @@
+<PAW_Invoices xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">nuevo</Customer_ID>
+	<Customer_GUID>{E6DE25E0-6D62-449A-A156-1A17A7D466EC}</Customer_GUID>
+	<Customer_Name>nuevo</Customer_Name>
+	<Invoice_Number>016-00000670</Invoice_Number>
+	<Date xsi:type="paw:date">6/12/14</Date>
+	<isQuote>FALSE</isQuote>
+	<Drop_Ship>FALSE</Drop_Ship>
+	<ShipToAddress>
+	<Name>nuevo</Name>
+	<Sales_Tax_Code xsi:type="paw:id">ITBMS</Sales_Tax_Code>
+</ShipToAddress>	<Date_Due xsi:type="paw:date">8/11/14</Date_Due>
+	<Discount_Amount>0.00</Discount_Amount>
+	<Discount_Date xsi:type="paw:date">6/22/14</Discount_Date>
+	<Displayed_Terms>DOCF</Displayed_Terms>
+	<Accounts_Receivable_Account xsi:type="paw:id">1150</Accounts_Receivable_Account>
+	<AR_Account_GUID>{2B727DC0-F1B4-42F9-B908-771348AD7463}</AR_Account_GUID>
+	<Accounts_Receivable_Amount>60.97000</Accounts_Receivable_Amount>
+	<Note_Prints_After_Line_Items>FALSE</Note_Prints_After_Line_Items>
+	<Statement_Note_Prints_Before_Ref>FALSE</Statement_Note_Prints_Before_Ref>
+	<Beginning_Balance_Transaction>FALSE</Beginning_Balance_Transaction>
+	<Transaction_Period>34</Transaction_Period>
+	<Transaction_Number>57</Transaction_Number>
+	<GUID>{5F9874E6-2296-408B-84E1-508DEB13D7B1}</GUID>
+	<ApplyToInvoiceDistNumber>0</ApplyToInvoiceDistNumber>
+	<CreditMemoType>FALSE</CreditMemoType>
+	<ProgressBillingInvoice>FALSE</ProgressBillingInvoice>
+	<Number_of_Distributions>2</Number_of_Distributions>
+	<SalesLines>
+	<SalesLine>
+	<Quantity>0.00000</Quantity>
+	<SalesOrderDistributionNumber>0</SalesOrderDistributionNumber>
+	<Apply_To_Sales_Order>FALSE</Apply_To_Sales_Order>
+	<Apply_To_Proposal>FALSE</Apply_To_Proposal>
+	<InvoiceCMDistribution>0</InvoiceCMDistribution>
+	<Description>ITBMS</Description>
+	<GL_Account xsi:type="paw:id">2310</GL_Account>
+	<GL_Account_GUID>{24F83B58-BC6E-4989-8D66-D1EF86FFB050}</GL_Account_GUID>
+	<Unit_Price>0.00000</Unit_Price>
+	<Tax_Type>0</Tax_Type>
+	<Weight>0.00000</Weight>
+	<Amount>-3.99</Amount>
+	<Cost_of_Sales_Amount>0.00</Cost_of_Sales_Amount>
+	<Retainage_Percent>0.00</Retainage_Percent>
+	<UM_Stocking_Units>0.00000</UM_Stocking_Units>
+	<Stocking_Quantity>0.00000</Stocking_Quantity>
+	<Stocking_Unit_Price>0.00000</Stocking_Unit_Price>
+	<Sales_Tax_Authority>ITBMS</Sales_Tax_Authority>
+	</SalesLine>
+	<SalesLine>
+	<Quantity>1.00000</Quantity>
+	<SalesOrderDistributionNumber>0</SalesOrderDistributionNumber>
+	<Apply_To_Sales_Order>FALSE</Apply_To_Sales_Order>
+	<Apply_To_Proposal>FALSE</Apply_To_Proposal>
+	<InvoiceCMDistribution>1</InvoiceCMDistribution>
+	<Item_ID xsi:type="paw:id">MERLETTO</Item_ID>
+	<Item_GUID>{270FC770-A2C6-4664-A271-0B391DFAEDA1}</Item_GUID>
+	<Description>MERLETTO</Description>
+	<GL_Account xsi:type="paw:id">4000</GL_Account>
+	<GL_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Account_GUID>
+	<Unit_Price>56.98000</Unit_Price>
+	<Tax_Type>1</Tax_Type>
+	<Weight>0.00000</Weight>
+	<Amount>-56.98</Amount>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<INV_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</INV_Account_GUID>
+	<Cost_of_Sales_Account xsi:type="paw:id">5000</Cost_of_Sales_Account>
+	<Cost_of_SalesAccount_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</Cost_of_SalesAccount_GUID>
+	<Cost_of_Sales_Amount>0.00</Cost_of_Sales_Amount>
+	<Retainage_Percent>0.00</Retainage_Percent>
+	<UM_ID xsi:type="paw:id">&lt;Each&gt;</UM_ID>
+	<UM_Stocking_Units>1.00000</UM_Stocking_Units>
+	<Stocking_Quantity>1.00000</Stocking_Quantity>
+	<Stocking_Unit_Price>56.98000</Stocking_Unit_Price>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+</PAW_Invoices>

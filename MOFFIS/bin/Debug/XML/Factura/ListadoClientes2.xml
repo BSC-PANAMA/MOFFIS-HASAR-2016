@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PAW_Customers xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">AutoridadMaritima</ID>
+	<Name>Autoridad Maritima de Panama</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">2/6/15</Customer_Since_Date>
+	<Customer_Balance>4547.50</Customer_Balance>
+	<GUID>{2AF0B22D-C9F1-43C7-8136-BD499CF70110}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">cloud</ID>
+	<Name>cliente ejemplo de cloud</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+	<PhoneNumber Key="1">1365</PhoneNumber>
+	<PhoneNumber Key="2">12547</PhoneNumber>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">8/2/14</Customer_Since_Date>
+	<Customer_Balance>0.00</Customer_Balance>
+	<GUID>{98D2AF1B-CD4A-4ED1-8173-B7A93DE42314}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">CONTADO</ID>
+	<Name>CLIENTE CONTADO</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+	<Line1>CONTADO</Line1>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>100.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/22/11</Customer_Since_Date>
+	<Customer_Balance>80.97</Customer_Balance>
+	<GUID>{00B7BF2B-992D-412F-AF01-10DACB8F8173}</GUID>
+	<Credit_Status>3</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">CONTADO2</ID>
+	<Name>CONTADO VIA ESPAÑA</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">7/25/14</Customer_Since_Date>
+	<Customer_Balance>701.11</Customer_Balance>
+	<GUID>{E0F7B5B1-A52E-4EF7-8FE3-F739A55FAF57}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">Ejemplo23</ID>
+	<Name>ejemplo usuario 23</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+	<Line1>villa</Line1>
+	<Line2>campestres</Line2>
+	<City>panama</City>
+	<State>PA</State>
+	<Zip>12563</Zip>
+</BillToAddress>	<PhoneNumbers>
+	<PhoneNumber Key="1">3909874</PhoneNumber>
+	<PhoneNumber Key="2">2364587</PhoneNumber>
+</PhoneNumbers>	<Sales_Representative_ID xsi:type="paw:id">CD-236</Sales_Representative_ID>
+	<Sales_Rep_GUID>{4E6B9F1F-E7EC-47DF-BEF4-7371B7E775E3}</Sales_Rep_GUID>
+	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1">customizable 1</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/21/14</Customer_Since_Date>
+	<Customer_Balance>0.00</Customer_Balance>
+	<GUID>{50D19006-FD2B-4015-80A5-23B357F4313B}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">ejemplolargooooooooo</ID>
+	<Name>ejemplolargoooooooooddddsfsdfasfafasfas</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+	<Line1>asdfsadfsadfsadfasdfasdfasdfaf</Line1>
+	<Line2>asdfsadfsafasdfsadfsdfsdafsadf</Line2>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1">afddasfasfsafsafasdfsdafsdfsdfdsafasdfas</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">1/22/15</Customer_Since_Date>
+	<Customer_Balance>2283.14</Customer_Balance>
+	<GUID>{27C37A16-C020-4286-AC21-A9A53EB8C8AC}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">EMPRESA UNIDAS</ID>
+	<Name>EMPRESAS UNIDAS DE PANAMA</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+	<Line1>VIA ESPAÑA</Line1>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1">RUC 442513-1-5354245456</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/22/11</Customer_Since_Date>
+	<Customer_Balance>478.01</Customer_Balance>
+	<GUID>{FA32C863-9AE1-4AF0-96FB-46AE93F9FBD6}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">JYB CORPORATION</ID>
+	<Name>JYB CORPORATION</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+	<Line1>EDIFICO PLAZA 3025</Line1>
+	<Line2>EL CANGREJO, CALLE 6</Line2>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>100.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1">JDFKLAJSLÑDFJLÑAJSLÑFJÑAKLSDJÑFLJALÑSKDF</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/22/11</Customer_Since_Date>
+	<Customer_Balance>39099.75</Customer_Balance>
+	<GUID>{0110CFB2-0D3F-4AC9-B85A-C6E4C06B5E0A}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">nuevo</ID>
+	<Name>nuevo</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+	<PhoneNumber Key="1">(507) 360-0390</PhoneNumber>
+	<PhoneNumber Key="2">(507) 360-0390</PhoneNumber>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>TRUE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>60</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>3000.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">6/11/14</Customer_Since_Date>
+	<Customer_Balance>22986.28</Customer_Balance>
+	<GUID>{E6DE25E0-6D62-449A-A156-1A17A7D466EC}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">nuevo2</ID>
+	<Name>5555</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>90</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">6/11/14</Customer_Since_Date>
+	<Customer_Balance>1727.88</Customer_Balance>
+	<GUID>{A86B1195-7844-4CBB-8DF5-362468C5E419}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">nuevo3</ID>
+	<Name>llllll</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>10</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">6/11/14</Customer_Since_Date>
+	<Customer_Balance>771.64</Customer_Balance>
+	<GUID>{F3814C26-918F-4E6D-A842-460EA83D8020}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">prensa</ID>
+	<Name>Corporacion la prensa, S.A.</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">2/6/15</Customer_Since_Date>
+	<Customer_Balance>0.00</Customer_Balance>
+	<GUID>{95C4727F-3FED-4AC3-89B0-0B3CFE60353C}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">pruebadue</ID>
+	<Name>due prueba</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/16/14</Customer_Since_Date>
+	<Customer_Balance>726.61</Customer_Balance>
+	<GUID>{B475450B-079C-417D-852F-977E863E0B2F}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">pruebadue2</ID>
+	<Name>due prueba2</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>1</Pricing_Level>
+	<Pricing_Level_Text>Price Level 2</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>TRUE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/16/14</Customer_Since_Date>
+	<Customer_Balance>488.55</Customer_Balance>
+	<GUID>{EB123B22-3DE8-4367-9057-642E0FE8EAF0}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">pruebadue3</ID>
+	<Name>due prueba3</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>TRUE</Terms_Type>
+	<Due_Days>15</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/16/14</Customer_Since_Date>
+	<Customer_Balance>2757.42</Customer_Balance>
+	<GUID>{711FC619-7554-45DC-BE8A-C2786A8AEAE4}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">pruebadue4</ID>
+	<Name>due prueba4</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>15</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>TRUE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/16/14</Customer_Since_Date>
+	<Customer_Balance>27.77</Customer_Balance>
+	<GUID>{65536783-06EA-459B-8085-CA3EC224E24B}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">pruebadue5</ID>
+	<Name>pruebadue5</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>TRUE</Terms_Type>
+	<Due_Days>31</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/21/14</Customer_Since_Date>
+	<Customer_Balance>626.12</Customer_Balance>
+	<GUID>{8190A1BF-3148-43F5-BFE7-2604FF5B9E20}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">pruebanube1</ID>
+	<Name>NUBE 1</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+	<Line1>NUBE PRIMERA</Line1>
+	<Line2>NUBE SEGUNDA</Line2>
+	<City>panama</City>
+</BillToAddress>	<PhoneNumbers>
+	<PhoneNumber Key="1">12563</PhoneNumber>
+	<PhoneNumber Key="2">4784</PhoneNumber>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Second Contact</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">11/14/14</Customer_Since_Date>
+	<Customer_Balance>0.00</Customer_Balance>
+	<GUID>{CA00CD38-2526-47B7-875E-EF2F82358D57}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+</PAW_Customers>

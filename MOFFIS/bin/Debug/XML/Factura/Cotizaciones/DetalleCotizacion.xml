@@ -1,0 +1,43 @@
+<PAW_Invoices xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Invoice_Number>ejemplohasar</Invoice_Number>
+	<Date xsi:type="paw:date">3/11/15</Date>
+	<Quote_Number>ejemplohasar</Quote_Number>
+	<Quote_Good_Thru_Date xsi:type="paw:date">4/10/15</Quote_Good_Thru_Date>
+	<Drop_Ship>FALSE</Drop_Ship>
+	<Ship_Via>Airborne</Ship_Via>
+	<Date_Due xsi:type="paw:date">4/10/15</Date_Due>
+	<Discount_Amount>3.44</Discount_Amount>
+	<Discount_Date xsi:type="paw:date">3/21/15</Discount_Date>
+	<Displayed_Terms>2% 10, Net 30 Days</Displayed_Terms>
+	<Accounts_Receivable_Account xsi:type="paw:id">1100</Accounts_Receivable_Account>
+	<Note>customer note prueba</Note>
+	<Statement_Note>statement note prueba</Statement_Note>
+	<Internal_Note>internal note prueba</Internal_Note>
+	<SalesLines>
+	<SalesLine>
+	<Quantity>1.00000</Quantity>
+	<InvoiceCMDistribution>1</InvoiceCMDistribution>
+	<Item_ID xsi:type="paw:id">I-L-PLY3/4 4X8</Item_ID>
+	<Description>VENTANAS PVC FRANCESAS TRANSP. 120 X 120</Description>
+	<GL_Account xsi:type="paw:id">4000</GL_Account>
+	<Unit_Price>58.23000</Unit_Price>
+	<Tax_Type>1</Tax_Type>
+	<UM_ID xsi:type="paw:id">&lt;Each&gt;</UM_ID>
+	</SalesLine>
+	<SalesLine>
+	<Quantity>2.00000</Quantity>
+	<InvoiceCMDistribution>2</InvoiceCMDistribution>
+	<Item_ID xsi:type="paw:id">MERLETTO</Item_ID>
+	<Description>MERLETTO</Description>
+	<GL_Account xsi:type="paw:id">4000</GL_Account>
+	<Unit_Price>56.98000</Unit_Price>
+	<Tax_Type>1</Tax_Type>
+	<UM_ID xsi:type="paw:id">&lt;Each&gt;</UM_ID>
+	</SalesLine>
+</SalesLines></PAW_Invoice>
+</PAW_Invoices>

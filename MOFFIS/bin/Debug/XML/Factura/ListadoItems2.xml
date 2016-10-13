@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PAW_Items xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">7451000700507</ID>
+	<Description>CAFE DURAN</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>CAFE DURAN BOLSA GRANDE</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>10.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{9BB6DED7-3D83-4319-AF1B-E4A33E10204C}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">7501000638925</ID>
+	<Description>CHOCO CRIPS</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>GALLETAS DE CHOCOLATE CHOCO CRIPS</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>0.55000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>1.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>5.20000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{CA2072F3-8F4B-4C44-8F9D-58A7C6CCA20B}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">845973050696</ID>
+	<Description>hol msdaiojsajoidfjoisjdfsdoif</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>opsjoifjsdoifjioasdifjoisdjfoiasdjiofjsdifiosd foisdahf sdhiofhdsoifhohofi iof hioashdfsoidahfisodhf sdoihf sdhfoashfdhsafhshdfkjsadhfshfoihasfoihsfhskhfsdhfdsk</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>0.50000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{0073B953-535F-410B-B008-76A939982DA1}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">EJEMPLO1234567879901</ID>
+	<Description>AJDSJOIDJOODJASJIDASOJDIOASDjo</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>SFHASDOFSAODFOISDOIFHOASDHFOHASDHFIOASDHFIOSDAHFOISHADOIFHSADOIFHSIAOHFIOSADHIFSHAOFHASOPFHAIOHDFOASHFDOIHASIOFHDAHPFDHISAOFD</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>100.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{0FAA9A52-2A48-42D4-B540-166E18B9C36D}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">ejemplo234</ID>
+	<Description>12365478</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>hola mundo 123445</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>4</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">6000</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{3D2B6999-4AE5-466B-BA27-3252CDFE16B9}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5400</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{21FE8604-3721-4A07-974E-6D50C9C7E083}</GL_COGSSalary_Acct_GUID>
+	<GUID>{C47A2434-7D2E-47FB-9368-751CC103D3CC}</GUID>
+	<IsTaxable>FALSE</IsTaxable>
+	<Tax_Type_Name>Exempt</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">I-L-PLY3/4 4X8</ID>
+	<Description>VENTANAS PVC FRANCESAS TRANSP.</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>VENTANAS PVC FRANCESAS TRANSP. 120 X 120</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>58.23000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{681D26DA-D18F-4A36-B739-89CAC976A978}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">I-V-T120.120</ID>
+	<Description>VENTANAS PVC FRANCESAS TRANSP.</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>VENTANAS PVC FRANCESAS TRANSP. 120 X 120</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>79.01000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{301D6D43-A6C3-4D56-A856-1D595AAB80E6}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">Mantenimiento</ID>
+	<Description>Mantenimiento de la red de seg</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>Mantenimiento de la red de segumar correspondiente del 19 de diciembre al 19 de enero del 2015.</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>4250.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{7CA42149-0F1E-4B3E-BE25-7E8285D7F08A}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">MERLETTO</ID>
+	<Description>MERLETTO</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>MERLETTO</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>56.98000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{270FC770-A2C6-4664-A271-0B391DFAEDA1}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">MICRONPACK</ID>
+	<Description>MICRONPACK</Description>
+	<isInactive>FALSE</isInactive>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>25.95000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{297030B9-A11B-4FFC-911D-82DE810125E5}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">prensa1</ID>
+	<Description>Smart Management with RHN Moni</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>Smart Management with RHN Monitoring</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>288.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{F13B2B1F-13AE-4835-A140-5C9AE897F552}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">prensa2</ID>
+	<Description>Red Hat Enterprise Linux Serve</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>Red Hat Enterprise Linux Server Standard</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>799.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{26D99363-AEC9-4C78-8F7F-349135611823}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">prensa3</ID>
+	<Description>Red Hat Enterprise Linux Serve</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>Red Hat Enterprise Linux Server Self support</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>995.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{60F8A75B-C0FB-45FC-90CA-F26205794DD7}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">STE L675</ID>
+	<Description>MAQUINA ELEC STE L675</Description>
+	<isInactive>FALSE</isInactive>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>399.25000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{46B199EE-BDBB-4413-BE52-8321EA64698A}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">TLYY 1125</ID>
+	<Description>TLYY 1125</Description>
+	<isInactive>FALSE</isInactive>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>36.58000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{E6AC6E65-07C9-4358-9FC5-C9ACDCDCC645}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+</PAW_Items>

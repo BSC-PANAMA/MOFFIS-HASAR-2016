@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PAW_Invoices xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Date xsi:type="paw:date">3/11/15</Date>
+	<Quote_Number>ejemplohasar</Quote_Number>
+</PAW_Invoice>
+</PAW_Invoices>

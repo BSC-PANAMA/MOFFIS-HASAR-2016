@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CSSDK">
+</Property><Property Name="Solution File" Value="C:\Peachtree SDK\Version 2006\Sample Code\C# .Net Code\CSSDK\CSSDK.sln">
+</Property><Property Name="Date" Value="Wednesday, October 22, 2008">
+</Property><Property Name="Time" Value="17:32 PM">
+</Property></Properties><Event ErrorLevel="0" Project="CSSDK" Source="CSSDK.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CSSDK" Source="CSSDK.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CSSDK.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CSSDK.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="CSSDK.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

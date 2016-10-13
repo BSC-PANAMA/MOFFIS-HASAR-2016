@@ -1,0 +1,368 @@
+<PAW_Accounts xmlns:paw="urn:schemas-peachtree-com/paw8.02-datatypes"
+xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1010</ID>
+	<Description>Cash on Hand</Description>
+	<Type>0</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{FF50DE5F-DDD5-4387-9B18-0F56B2FDB491}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1020</ID>
+	<Description>Checking Account</Description>
+	<Type>0</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{CD107993-D76C-4B2F-B144-05AAF05DD186}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1100</ID>
+	<Description>Accounts Receivable</Description>
+	<Type>1</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{18B86786-3A33-4AD5-A622-50C378314A63}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1150</ID>
+	<Description>Allowance for Doubtful Account</Description>
+	<Type>1</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{2B727DC0-F1B4-42F9-B908-771348AD7463}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1200</ID>
+	<Description>Inventory</Description>
+	<Type>2</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1400</ID>
+	<Description>Prepaid Expenses</Description>
+	<Type>4</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{B8E27299-90B4-431D-9E7D-C4DA9F11D41B}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1500</ID>
+	<Description>Property and Equipment</Description>
+	<Type>5</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{4D296073-8357-4363-BBE0-927AF0FD71F4}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1900</ID>
+	<Description>Accum. Depreciation - Prop&amp;Eqt</Description>
+	<Type>6</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{6DDD72E2-2F7E-49EA-9118-9AFC29C67B20}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2000</ID>
+	<Description>Accounts Payable</Description>
+	<Type>10</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{FEDD91C7-AB25-4F64-A84E-CA35D508DBDA}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2310</ID>
+	<Description>Sales Tax Payable</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{24F83B58-BC6E-4989-8D66-D1EF86FFB050}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2320</ID>
+	<Description>Deductions Payable</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{9CBA58A1-2274-428F-B21A-8AAA0839E496}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2330</ID>
+	<Description>Federal Payroll Taxes Payable</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{499993CE-5CF7-4B3A-9554-F7174460FAF3}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2340</ID>
+	<Description>FUTA Payable</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{429F06D4-1208-46E9-AC6C-E6624D2ABB44}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2350</ID>
+	<Description>State Payroll Taxes Payable</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{B028CBD0-7B6E-42B1-B510-E972C9778C27}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2360</ID>
+	<Description>SUTA Payable</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{1D40B1DD-A678-451E-9495-263B8EA95565}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2370</ID>
+	<Description>Local Taxes Payable</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{88E8E184-C1BB-486E-8B88-4EF449B943B7}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2380</ID>
+	<Description>Income Taxes Payable</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{117C1F17-F27A-4207-8CF6-DE2F98AF7A8D}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2400</ID>
+	<Description>Customer Deposits</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{BFAC5D39-354F-464E-BAE3-E1F06BDF4B38}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2500</ID>
+	<Description>Current Portion Long-Term Debt</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{EEAC666D-F592-4FD2-8F8B-F1D1EBA25333}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">2700</ID>
+	<Description>Long Term Debt-Noncurrent</Description>
+	<Type>14</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{E60DC8AE-6C3B-4DD4-A1D1-5CF2B9E19987}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">3909</ID>
+	<Description>Beginning Balance Equity</Description>
+	<Type>16</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{B7DC8FF8-AA0E-477D-BBCD-B1CAE6E361CF}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">3910</ID>
+	<Description>Retained Earnings</Description>
+	<Type>18</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{45C78F66-55CA-47BA-AFA1-15D07620F29D}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">3920</ID>
+	<Description>Paid-in Capital</Description>
+	<Type>16</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{C367BD33-73F2-4073-ADB0-F1CD3391CA75}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">3930</ID>
+	<Description>Common Stock</Description>
+	<Type>16</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{443ED97E-5028-445E-A939-6463F3C3B647}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">3940</ID>
+	<Description>Dividends Paid</Description>
+	<Type>19</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{82E4EBD3-A2F7-4EC1-A74B-5A98BE6FB1B9}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">4000</ID>
+	<Description>Sales Income</Description>
+	<Type>21</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">4100</ID>
+	<Description>Interest Income</Description>
+	<Type>21</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{E1981D3F-6FC1-49E6-9E72-8B2F3A3557D3}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">4200</ID>
+	<Description>Other Income</Description>
+	<Type>21</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{23FC7FD3-C6BB-4FE9-A06E-95677B45ADE1}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">4900</ID>
+	<Description>Sales Discounts</Description>
+	<Type>21</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{1644D4A7-E0AD-41BA-B985-8324034AC9E2}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">5000</ID>
+	<Description>Cost of Sales</Description>
+	<Type>23</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">5400</ID>
+	<Description>Cost of Sales-Salary &amp; Wage</Description>
+	<Type>23</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{21FE8604-3721-4A07-974E-6D50C9C7E083}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">5900</ID>
+	<Description>Inventory Adjustments</Description>
+	<Type>23</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{EB43E949-F904-4F2C-B505-E5FC5390A5F4}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6000</ID>
+	<Description>Wages Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{3D2B6999-4AE5-466B-BA27-3252CDFE16B9}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6050</ID>
+	<Description>Employee Benefit Programs Exp</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{65206AAF-E260-44C8-9BC7-E9AA4AB9B64B}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6100</ID>
+	<Description>Payroll Tax Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{52777F77-C602-4BDC-939C-1ADBA84046EE}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6150</ID>
+	<Description>Bad Debt Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{F72BF4D6-8294-418F-B524-6DA71B60B646}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6200</ID>
+	<Description>Income Tax Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{04183D2F-E0DF-4759-9D28-ED7C165785E2}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6250</ID>
+	<Description>Other Taxes Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{9C267C45-6D2C-4247-BD07-9D57B6DA42F9}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6300</ID>
+	<Description>Rent or Lease Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{F8BC2826-628A-4BA2-8A3A-D460CDCB46BF}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6350</ID>
+	<Description>Maintenance &amp; Repairs Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{9D32A135-59BC-4730-A574-3CD210C85BA9}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6400</ID>
+	<Description>Utilities Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{799E1722-9E98-4714-A3B1-041EA9E519D9}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6450</ID>
+	<Description>Office Supplies Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{36F1E3BF-A66E-4788-B6E0-9768BBE8E178}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6500</ID>
+	<Description>Telephone Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{06A4483A-E321-458D-9A50-8E9F15D7E5DD}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6550</ID>
+	<Description>Other Office Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{9AF6CCF2-6F8D-4998-AC0C-7E94B7FC49C0}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6600</ID>
+	<Description>Delivery Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{6CAE3571-49ED-4796-B8AE-8F154EC5A150}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6650</ID>
+	<Description>Postage and Freight Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{5B842D4F-D573-4F24-B013-3892049F8CEC}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6700</ID>
+	<Description>Travel Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{D36DF27B-CC14-49A7-B99A-CCB34835DB4C}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6750</ID>
+	<Description>Service Charge Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{2A508EAB-94F3-45EC-AEBA-658D714DC996}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6800</ID>
+	<Description>Purchase Disc-Expense Items</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{14AA3246-2854-4ED2-8F22-712E0B2767AC}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6850</ID>
+	<Description>Insurance Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{8A791576-EDDE-4D59-9475-C639D8C8D35A}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6900</ID>
+	<Description>Depreciation Expense</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{F4EB2ED9-5457-457B-9A15-DD4644DC6D08}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">6950</ID>
+	<Description>Gain/Loss - Sale of Assets Exp</Description>
+	<Type>24</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{420914F0-6522-4A23-BB11-6EB39C826591}</GUID>
+</PAW_Account>
+</PAW_Accounts>

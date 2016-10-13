@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CSSDK">
+</Property><Property Name="Solution File" Value="C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\CSSDK.sln">
+</Property><Property Name="User Options File" Value="C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\CSSDK.suo">
+</Property><Property Name="Date" Value="sábado, 14 de mayo de 2011">
+</Property><Property Name="Time" Value="05:18 a.m.">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CSSDK.sln" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\CSSDK.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CSSDK.suo" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\CSSDK.suo">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="CSSDK.csproj" Description="Project file successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\CSSDK.csproj">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="CSSDK.csproj.user" Description="Project user file successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\CSSDK.csproj.user">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="AccountingPeriods.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\AccountingPeriods.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="ARAPInformation.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\ARAPInformation.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="Connect.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\Connect.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="Delete.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\Delete.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmAccountingPeriods.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmAccountingPeriods.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmActiveGLAccts.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmActiveGLAccts.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmAging.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmAging.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmAppProperties.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmAppProperties.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmCompany_Password.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmCompany_Password.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmCompany_Password.Designer.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmCompany_Password.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmInvoices.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmInvoices.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmMain.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmMaintGLAccts.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmMaintGLAccts.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmNewInvoices.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmNewInvoices.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmOpenCompany.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmOpenCompany.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="GLInformation.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\GLInformation.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="Login.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\Login.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="Login.Designer.cs" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\Login.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="App.ico" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmAccountingPeriods.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmAccountingPeriods.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmActiveGLAccts.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmActiveGLAccts.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmAging.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmAging.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmAppProperties.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmAppProperties.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmCompany_Password.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmCompany_Password.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmInvoices.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmInvoices.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmMain.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmMaintGLAccts.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmMaintGLAccts.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmNewInvoices.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmNewInvoices.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="frmOpenCompany.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\frmOpenCompany.resx">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="Login.resx" Description="File successfully backed up as C:\BS&amp;C\ProyectoLuis\CSSDK - Copy\Backup\Login.resx">
+</Event><Event ErrorLevel="1" Project="CSSDK" Source="CSSDK.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="CSSDK.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CSSDK" Source="CSSDK.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CSSDK.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CSSDK.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CSSDK" Source="CSSDK.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
