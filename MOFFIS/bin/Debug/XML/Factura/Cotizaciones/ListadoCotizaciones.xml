@@ -4,7 +4,73 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 <PAW_Invoice xsi:type="paw:invoice">
 	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
 	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Date xsi:type="paw:date">1/21/15</Date>
+	<Quote_Number>ejemplopo</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Date xsi:type="paw:date">1/26/15</Date>
+	<Quote_Number>ejemplooki1</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
+	<Date xsi:type="paw:date">1/26/15</Date>
+	<Quote_Number>ejemplooki2</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">JYB CORPORATION</Customer_ID>
+	<Customer_Name>JYB CORPORATION</Customer_Name>
 	<Date xsi:type="paw:date">3/11/15</Date>
 	<Quote_Number>ejemplohasar</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">AIDA RAMOS</Customer_ID>
+	<Customer_Name>AIDA RAMOS</Customer_Name>
+	<Date xsi:type="paw:date">7/14/15</Date>
+	<Quote_Number>prueba201507</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">AIDA RAMOS</Customer_ID>
+	<Customer_Name>AIDA RAMOS</Customer_Name>
+	<Date xsi:type="paw:date">7/30/15</Date>
+	<Quote_Number>ejemplodejueves</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">ANSELMO BECKFORD</Customer_ID>
+	<Customer_Name>ANSELMO BECKFORD</Customer_Name>
+	<Date xsi:type="paw:date">7/30/15</Date>
+	<Quote_Number>ejemplodejueves1</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">ANSELMO BECKFORD</Customer_ID>
+	<Customer_Name>ANSELMO BECKFORD</Customer_Name>
+	<Date xsi:type="paw:date">8/6/15</Date>
+	<Quote_Number>EJEMPLOOKI2</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">ANSELMO BECKFORD</Customer_ID>
+	<Customer_Name>ANSELMO BECKFORD</Customer_Name>
+	<Date xsi:type="paw:date">8/7/15</Date>
+	<Quote_Number>ejemplooki1</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">AIDA RAMOS</Customer_ID>
+	<Customer_Name>AIDA RAMOS</Customer_Name>
+	<Date xsi:type="paw:date">8/7/15</Date>
+	<Quote_Number>EJEMPLLONUEVO</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">AIDA RAMOS</Customer_ID>
+	<Customer_Name>AIDA RAMOS</Customer_Name>
+	<Date xsi:type="paw:date">8/26/15</Date>
+	<Quote_Number>ejemplo26</Quote_Number>
+</PAW_Invoice>
+<PAW_Invoice xsi:type="paw:invoice">
+	<Customer_ID xsi:type="paw:id">ANSELMO BECKFORD2</Customer_ID>
+	<Customer_Name>ANSELMO BECKFORD</Customer_Name>
+	<Date xsi:type="paw:date">9/3/15</Date>
+	<Quote_Number>ejemplodes1</Quote_Number>
 </PAW_Invoice>
 </PAW_Invoices>

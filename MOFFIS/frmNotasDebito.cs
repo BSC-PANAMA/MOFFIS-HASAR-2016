@@ -1579,12 +1579,12 @@ namespace MOFFIS
                 MessageBox.Show("Debe introducir un precio unitario", "Valor Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-            else
-                if (Convert.ToDouble(this.txtPrecioUnitario.Text.Trim()) <= 0)
-                {
-                    MessageBox.Show("El precio unitario no puede ser igual ni menor a cero (0)", "Valor Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return false;
-                }
+            //else
+            //    if (Convert.ToDouble(this.txtPrecioUnitario.Text.Trim()) <= 0)
+            //    {
+            //        MessageBox.Show("El precio unitario no puede ser igual ni menor a cero (0)", "Valor Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //        return false;
+            //    }
 
             if (this.cbGlacct.Text.Trim() == "")
             {
@@ -2996,8 +2996,23 @@ namespace MOFFIS
 
                     if (CodigoProducto == "C")
                     {
-                        comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
-                        //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+
+                        if(precioU.Contains("-"))
+                        {
+                            double remplazo = Convert.ToDouble(precioU) * -1;
+                            precioU = string.Format("{0:##0.000}", remplazo);
+                            comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "m" + FS + itemID;
+                            //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+                        }
+                        else
+                        {
+                            comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+                            //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+                        }
+
+
+
+
                         HASAR.LimpiarDoc();
                         mensaje = HASAR.MandaPaqueteFiscal(handler, comando).ToString();
                         if (Convert.ToInt32(mensaje) < 0)
@@ -3015,8 +3030,23 @@ namespace MOFFIS
                     }
                     else
                     {
-                        comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + "*****";
-                        //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+                        if (precioU.Contains("-"))
+                        {
+                            double remplazo = Convert.ToDouble(precioU) * -1;
+                            precioU = string.Format("{0:##0.000}", remplazo);
+                            comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "m" + FS + "*****";
+                            //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+                        }
+                        else
+                        {
+                            comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + "*****";
+                            //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+                        }
+
+
+
+
+
                         HASAR.LimpiarDoc();
                         mensaje = HASAR.MandaPaqueteFiscal(handler, comando).ToString();
                         if (Convert.ToInt32(mensaje) < 0)

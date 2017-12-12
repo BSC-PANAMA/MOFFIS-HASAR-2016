@@ -172,6 +172,7 @@ namespace MOFFIS
             dtDetalleInvoice.Columns.Add(new DataColumn("PrecioUnitario", System.Type.GetType("System.String")));//("System.Double")));
             dtDetalleInvoice.Columns.Add(new DataColumn("Tax", System.Type.GetType("System.Int32")));
             dtDetalleInvoice.Columns.Add(new DataColumn("Monto", System.Type.GetType("System.String")));
+            dtDetalleInvoice.Columns.Add(new DataColumn("DN", System.Type.GetType("System.String")));
             dtDetalleInvoice.AcceptChanges();
         }
 
@@ -1653,12 +1654,12 @@ namespace MOFFIS
                 MessageBox.Show("Debe introducir un precio unitario", "Valor Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-            else
-                if (Convert.ToDouble(this.txtPrecioUnitario.Text.Trim()) <= 0)
-                {
-                    MessageBox.Show("El precio unitario no puede ser igual ni menor a cero (0)", "Valor Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return false;
-                }  
+            //else
+            //    if (Convert.ToDouble(this.txtPrecioUnitario.Text.Trim()) <= 0)
+            //    {
+            //        MessageBox.Show("El precio unitario no puede ser igual ni menor a cero (0)", "Valor Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //        return false;
+            //    }  
        
             if (this.cbGlacct.Text.Trim() == "")
             {
@@ -2176,7 +2177,7 @@ namespace MOFFIS
             string Descripcion;
             string GLAcc;
             string precioU;
-            string Taxtype;
+            string Taxtype = "1";
             string monto;
             try
             {
@@ -2229,7 +2230,9 @@ namespace MOFFIS
                 Writer.WriteEndElement();
                 //Es Cotizacion?
                 Writer.WriteElementString("isQuote", "FALSE");
-                if (this.lblCotizacionOrSalesOrder.Text.Trim() != "")
+
+                if (this.label36.Text == "Cotización :" && this.lblCotizacionOrSalesOrder.Text.Trim() != "")
+                    //if (this.lblCotizacionOrSalesOrder.Text.Trim() != "")
                 {
                     Writer.WriteElementString("Quote_Number", this.lblCotizacionOrSalesOrder.Text.Trim());
                     Writer.WriteStartElement("Quote_Good_Thru_Date");
@@ -2476,9 +2479,44 @@ namespace MOFFIS
                     Writer.WriteStartElement("SalesLine");
                     Writer.WriteElementString("Quantity", cantidad);
 
-                    Writer.WriteElementString("SalesOrderDistributionNumber", "0");
-                    Writer.WriteElementString("Apply_To_Sales_Order", "FALSE");
-                    Writer.WriteElementString("Apply_To_Proposal", "FALSE");
+                    if (label36.Text != "Orden de venta :")
+                    {
+                        Writer.WriteElementString("SalesOrderDistributionNumber", "0");
+                        Writer.WriteElementString("Apply_To_Sales_Order", "FALSE");
+                        Writer.WriteElementString("Apply_To_Proposal", "FALSE");
+                    }
+                    else if (label36.Text == "Orden de venta :")
+                    {
+                        if (lblCotizacionOrSalesOrder.Text != "")
+                        {
+
+                            if (this.dgvDetalleInvoice.Rows[lineas].Cells[8].Value.ToString() != "")
+                            {
+                                Writer.WriteElementString("SalesOrderDistributionNumber", this.dgvDetalleInvoice.Rows[lineas].Cells[10].Value.ToString());
+                            }
+                            else
+                            {
+                                Writer.WriteElementString("SalesOrderDistributionNumber", (lineas + 1).ToString());
+                            }
+
+
+
+                            Writer.WriteElementString("Apply_To_Sales_Order", "TRUE");
+                            Writer.WriteElementString("SalesOrderNumber", lblCotizacionOrSalesOrder.Text);
+                            Writer.WriteElementString("Apply_To_Proposal", "FALSE");
+                        }
+                        else
+                        {
+                            Writer.WriteElementString("SalesOrderDistributionNumber", "0");
+                            Writer.WriteElementString("Apply_To_Sales_Order", "FALSE");
+                            Writer.WriteElementString("Apply_To_Proposal", "FALSE");
+                        }
+                    }
+
+
+
+
+
                     Writer.WriteElementString("InvoiceCMDistribution", (lineas + 1).ToString());
 
                     Writer.WriteStartElement("Item_ID");
@@ -2494,7 +2532,7 @@ namespace MOFFIS
                     Writer.WriteEndElement();
                     //<GL_Account_GUID>{1E045D3F-B36A-46FA-AFA0-0C9B01251457}</GL_Account_GUID> 
 
-                    Writer.WriteElementString("Unit_Price", (Convert.ToDouble(precioU) * -1).ToString());
+                    //Writer.WriteElementString("Unit_Price", (Convert.ToDouble(precioU) * -1).ToString());
                     Writer.WriteElementString("Tax_Type", Taxtype);
 
                     Writer.WriteElementString("Amount", (Convert.ToDouble(monto) * -1).ToString());
@@ -2543,7 +2581,8 @@ namespace MOFFIS
                     Writer.WriteEndElement();
 
                     //Writer.WriteElementString("Unit_Price", (Convert.ToDouble(precioU) * -1).ToString());
-                    Writer.WriteElementString("Tax_Type", "20");
+                    //Writer.WriteElementString("Tax_Type", "20");
+                    Writer.WriteElementString("Tax_Type", Taxtype);
 
                     Writer.WriteElementString("Amount", this.txtDescuento.Text);
 
@@ -3339,8 +3378,25 @@ namespace MOFFIS
 
                     if (CodigoProducto == "C")
                     {
-                        //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + "123456";
-                        comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+
+
+                        if(precioU.Contains("-"))
+                        {
+                            double remplazo = Convert.ToDouble(precioU) * -1;
+                            precioU = string.Format("{0:##0.000}", remplazo);
+                            comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "m" + FS + itemID;
+                        }
+                        else
+                        {
+                            //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + "123456";
+                            comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+                        }
+
+
+
+
+
+
                         HASAR.LimpiarDoc();
                         mensaje = HASAR.MandaPaqueteFiscal(handler, comando).ToString();
                         if (Convert.ToInt32(mensaje) < 0)
@@ -3358,8 +3414,25 @@ namespace MOFFIS
                     }
                     else
                     {
-                        //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + "123456";
-                        comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + "*****";
+
+
+
+                        if(precioU.Contains("-"))
+                        {
+                            double remplazo = Convert.ToDouble(precioU) * -1;
+                            precioU = string.Format("{0:##0.000}", remplazo);
+                            comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "m" + FS + "*****";
+                        }
+                        else
+                        {
+                            //comando = "B" + FS + Descripcion + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + "123456";
+                            comando = "B" + FS + sDescripcion1 + FS + cantidad + FS + precioU + FS + codigoI + FS + "M" + FS + "*****";
+                        }
+
+
+
+
+
                         HASAR.LimpiarDoc();
                         mensaje = HASAR.MandaPaqueteFiscal(handler, comando).ToString();
                         if (Convert.ToInt32(mensaje) < 0)
@@ -4265,6 +4338,166 @@ namespace MOFFIS
             reader = null;
         }
 
+
+
+        public void ObtenerListaOrdenesVentas()
+        {
+
+
+                exportador = (Export)ptApp.app.CreateExporter(PeachwIEObj.peachwIEObjSalesOrders);
+
+
+
+
+            DateTime fecha1 = this.dtp1.Value;//DateTime.Now.AddDays(-7);
+            DateTime fecha2 = this.dtp2.Value;//DateTime.Now;
+
+            string PathMoffis = "";
+            string PathListado = "";
+            string PathListado2 = "";
+
+
+
+            //PeachwIEObjSalesJournalField
+            // exportador = (Export)ptApp.app.CreateExporter(PeachwIEObj.peachwIEObjSalesOrders);
+            //exportador = (Export)ptApp.app.CreateExporter(PeachwIEObj.peachwIEObjSalesJournal);
+            exportador.ClearExportFieldList();
+
+
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_SalesOrderNumber);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_CustomerId);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_CustomerName);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_Date);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_SalesOrderClosed);
+
+
+
+            exportador.SetDateFilterValue(PeachwIEDateFilterOperation.peachwIEDateFilterOperationRange, fecha1, fecha2);
+
+
+            PathMoffis = System.Windows.Forms.Application.StartupPath.ToString();
+            PathListado = PathMoffis + @"\XML\Factura\Cotizaciones\ListaOrdenesVentasDefinitiva.xml";
+            PathListado2 = PathMoffis + @"\XML\Factura\Cotizaciones\ListaOrdenesVentasDefinitiva2.xml";
+
+
+            exportador.SetFilename(PathListado);
+            exportador.SetFileType(PeachwIEFileType.peachwIEFileTypeXML);
+            exportador.Export();
+
+            string fic = PathListado;
+            string texto;
+
+            Encoding enc = GetFileEncoding(fic);
+            System.IO.StreamReader sr = new System.IO.StreamReader(fic, enc);
+            texto = sr.ReadToEnd();
+
+            System.IO.StreamWriter sw = new System.IO.StreamWriter(PathListado2);
+            sw.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>");
+            sw.Write(texto);
+            sw.Close();
+            sr.Close();
+
+
+            imp = new XmlImplementation();
+            doc = imp.CreateDocument();
+            doc.Load(PathListado2);
+            reader = doc.GetElementsByTagName("PAW_SalesOrder");
+
+            this.lvListadoCotizaciones.Columns.Add("ID Cliente", -2, HorizontalAlignment.Left);
+            this.lvListadoCotizaciones.Columns.Add("Nombre Cliente", -2, HorizontalAlignment.Left);
+            this.lvListadoCotizaciones.Columns.Add("Fecha", -2, HorizontalAlignment.Left);
+            this.lvListadoCotizaciones.Columns.Add("Numero Orden Venta", -2, HorizontalAlignment.Left);
+
+            int contadorCotizaciones = 0;
+            string customerID_Cot = "";
+            string customerName_Cot = "";
+            string date_Cot = "";
+            string quoteNumber_Cot;
+
+            int x1, x2, x3, x4;
+            cotizacionesIDList = Array.CreateInstance(typeof(string), 7, reader.Count);
+            for (int i = 0; i <= reader.Count - 1; i++)
+            {
+                x1 = 0;
+                x2 = 0;
+                x3 = 0;
+                x4 = 0;
+
+                customerID_Cot = "";
+                customerName_Cot = "";
+                date_Cot = "";
+                quoteNumber_Cot = "";
+
+                int controlador;
+
+                foreach (XmlNode node in reader[i].ChildNodes)
+                {
+                    switch (node.Name)
+                    {
+                        case "Customer_ID":
+                            {
+                                //this.lvListadoCotizaciones.Items.Add(node.InnerText);  
+                                customerID_Cot = node.InnerText;
+                                x1 = 1;
+                                break;
+                            }
+                        case "Customer_Name":
+                            {
+                                //this.lvListadoCotizaciones.Items[i].SubItems.Add(node.InnerText); 
+                                customerName_Cot = node.InnerText;
+                                x2 = 1;
+                                break;
+                            }
+                        case "Date":
+                            {
+                                //this.lvListadoCotizaciones.Items[i].SubItems.Add(node.InnerText);    
+                                date_Cot = node.InnerText;
+                                x3 = 1;
+                                break;
+                            }
+                        case "Sales_Order_Number":
+                            {
+                                x4 = 1;
+                                //this.lvListadoCotizaciones.Items[i].SubItems.Add(node.InnerText);
+                                quoteNumber_Cot = node.InnerText;
+                                break;
+                            }
+                    }
+                }
+
+                controlador = 0;
+
+
+                if (controlador == 0)
+                {
+                    this.lvListadoCotizaciones.Items.Add(customerID_Cot);
+                    this.lvListadoCotizaciones.Items[contadorCotizaciones].SubItems.Add(customerName_Cot);
+                    this.lvListadoCotizaciones.Items[contadorCotizaciones].SubItems.Add(date_Cot);
+                    this.lvListadoCotizaciones.Items[contadorCotizaciones].SubItems.Add(quoteNumber_Cot);
+
+                    if (x4 == 0)
+                    {
+                        this.lvListadoCotizaciones.Items[contadorCotizaciones].SubItems.Add("");
+                    }
+                    contadorCotizaciones = contadorCotizaciones + 1;
+                }
+            }
+
+            exportador = null;
+            imp = null;
+            doc = null;
+            reader = null;
+
+            this.lvListadoCotizaciones.View = View.Details;
+            foreach (ColumnHeader col in lvListadoCotizaciones.Columns)
+            {
+                col.Width = -2;
+            }
+        }
+
+
+
+
         private void ObtenerListadoSalesOrders()
         {
             DateTime fecha1, fecha2;
@@ -4357,8 +4590,19 @@ namespace MOFFIS
 
         private void btnRecargarListados_Click(object sender, EventArgs e)
         {
-            this.ClearForm();
-            this.RecargarCotizaciones_SalesOrders();
+
+            if(cmbTipo.Text == "Cotizacion")
+            {
+                this.ClearForm();
+                this.RecargarCotizaciones_SalesOrders();
+            }
+            else if(cmbTipo.Text == "Orden de Venta")
+            {
+                this.ClearForm();
+                this.Recargar_SalesOrders();
+            }
+
+
         }
 
         private void RecargarCotizaciones_SalesOrders()
@@ -4367,6 +4611,15 @@ namespace MOFFIS
             this.ObtenerListadoCotizacionesUtilizados();
             this.lvListadoCotizaciones.Clear();
             this.ObtenerListadoCotizaciones();
+        }
+
+        private void Recargar_SalesOrders()
+        {
+            this.dtCotizacionesUtilizadas.Clear();
+            //this.ObtenerListadoCotizacionesUtilizados();
+            this.lvListadoCotizaciones.Clear();
+            //this.ObtenerListadoCotizaciones();
+            this.ObtenerListaOrdenesVentas();
         }
 
         private void lvListadoCotizaciones_DoubleClick(object sender, EventArgs e)
@@ -4381,7 +4634,19 @@ namespace MOFFIS
                 //Fecha = CStr(CDate(Me.lvListadoCot.Items(lvListadoCotizaciones.FocusedItem.Index).SubItems[2].Text));        
             }
 
-            this.ObtenerCotizacion();
+            
+
+
+            if(cmbTipo.Text == "Cotizacion")
+            {
+                this.ObtenerCotizacion();
+            }
+            else if(cmbTipo.Text == "Orden de Venta")
+            {
+                this.ObtenerOrdenVenta();
+            }
+
+
             this.tcFacturacion.SelectedIndex = 0;
         //Me.ObtenerCotizacion()
         //Me.ObtenerDatosComprador()
@@ -4810,6 +5075,383 @@ namespace MOFFIS
                             {
 
                                     this.txtStatementNote.Text = reader[i].ChildNodes[a].InnerText;
+
+                                break;
+                            }
+                    }
+                }
+            }
+            exportador = null;
+            imp = null;
+            doc = null;
+            reader = null;
+        }
+
+
+        private void ObtenerOrdenVenta()
+        {
+            DateTime fecha1 = this.dtp1.Value;//DateTime.Now.AddDays(-7);
+            DateTime fecha2 = this.dtp2.Value;//DateTime.Now;
+
+            exportador = (Export)ptApp.app.CreateExporter(PeachwIEObj.peachwIEObjSalesOrders);
+            exportador.ClearExportFieldList();
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_ARAccountId);//**
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_CustomerId);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_CustomerName);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_CustomerPurchaseOrder);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_Date);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_Description);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_DiscountAmount);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_DisplayedTerms);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_DropShip);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_enUMID);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_GLAccountId);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_InvoiceNote);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_InvoiceNote2);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_SalesOrderNumber);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_ItemId);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_Quantity);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_QuoteNumber);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_SalesRepId);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_ShipVia);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_StatementNote);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_TaxType);
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_UnitPrice);
+
+            exportador.AddToExportFieldList((short)PeachwIEObjSalesOrdersField.peachwIEObjSalesOrdersField_SalesOrderDistNum);
+
+
+            exportador.SetDateFilterValue(PeachwIEDateFilterOperation.peachwIEDateFilterOperationRange, fecha1, fecha2);
+     
+            //exportador.SetFilterValue((short)PeachwIEObjSalesJournalFilter.peachwIEObjSalesJournalFilter_TransactionType, PeachwIEFilterOperation.peachwIEFilterOperationEqualTo, "Quote", "Quote");
+            
+
+            PathMoffis = System.Windows.Forms.Application.StartupPath.ToString();
+            string PathListado = PathMoffis + @"\XML\Factura\Cotizaciones\DetalleSO.xml";
+            string PathListado2 = PathMoffis + @"\XML\Factura\Cotizaciones\DetalleSO2.xml";
+
+            exportador.SetFilename(PathListado);
+            exportador.SetFileType(PeachwIEFileType.peachwIEFileTypeXML);
+            exportador.Export();
+
+            string fic = PathListado;
+            string texto;
+
+            Encoding enc = GetFileEncoding(fic);
+            System.IO.StreamReader sr = new System.IO.StreamReader(fic, enc);
+            texto = sr.ReadToEnd();
+
+            System.IO.StreamWriter sw = new System.IO.StreamWriter(PathListado2);
+            sw.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>");
+            sw.Write(texto);
+            sw.Close();
+            sr.Close();
+
+            imp = new XmlImplementation();
+            doc = imp.CreateDocument();
+            doc.Load(PathListado2);
+            //MOFFIS.GLInformationsss accttype = new MOFFIS.GLInformationsss();
+
+            reader = doc.GetElementsByTagName("PAW_SalesOrder");
+
+            string customerID = "";
+            string sItemId = "";
+            string sItemCantidad = "";
+            string sItemUnidadM = "";
+            string sItemDescripcion = "";
+            string sItemGLAccount = "";
+            string sItemPrecioU = "";
+            string sItemTaxType = "";
+            string sNumDist;
+
+            string SalesRepID = "";
+            string ARAccountID = "";
+            string Quote_Good = "";
+
+            int controladorQuote;
+
+            for (int i = 0; i <= reader.Count - 1; i++)
+            {
+                controladorQuote = 0;
+                for (int a = 0; a <= reader[i].ChildNodes.Count - 1; a++)
+                {
+                    switch (reader[i].ChildNodes[a].Name)
+                    {
+                        case "Customer_ID":
+                            {
+                                if (reader[i].ChildNodes[a].InnerText.Trim() == sCustomerId.Trim())
+                                {
+                                    customerID = reader[i].ChildNodes[a].InnerText;
+                                }
+                                break;
+                            }
+                        case "Customer_Name":
+                            {
+                                break;
+                            }
+                        case "Date":
+                            {
+                                break;
+                            }
+                        case "Quote_Good_Thru_Date":
+                            {
+                                //Quote_Good = reader[i].ChildNodes[a].InnerText;
+
+                                //dtDateDue.Text = Quote_Good;
+                                break;
+                            }
+                        case "Invoice_Number":
+                            {
+                                break;
+                            }
+                        case "Sales_Order_Number":
+                            {
+                                if (reader[i].ChildNodes[a].InnerText.Trim() == sNumeroCotizacion.Trim())
+                                {
+                                    //this.cbClientes.Text = customerID;
+                                    //this.cbClientesChange();
+                                    //controladorQuote = 1;
+                                    //CuentaAR = reader[i].ChildNodes[a].InnerText;
+                                    for (int iContItems = 0; iContItems < this.cbClientes.Items.Count; ++iContItems)
+                                    {
+                                        string sCustomerCompleto = this.cbClientes.Items[iContItems].ToString();
+                                        string[] sCustomerDesglosado = sCustomerCompleto.Split('_');
+                                        string sCustomerID = sCustomerDesglosado[0];
+                                        if (customerID == sCustomerID)
+                                        {
+                                            this.cbClientes.SelectedIndex = iContItems;
+                                            this.cbClientesChange();
+                                            break;
+                                        }
+                                    }
+                                    //this.cbClientes.Text = customerID;
+                                    //this.cbClientesChange();
+                                    controladorQuote = 1;
+                                }
+                                break;
+                            }
+                        case "Customer_PO":
+                            {
+                                if (controladorQuote == 1)
+                                {
+                                    this.txtCustomerPO.Text = reader[i].ChildNodes[a].InnerText;
+                                }
+                                break;
+                            }
+                        case "Ship_VIA":
+                            {
+                                //this.lblFecha.Text = Convert.ToDateTime(reader[i].ChildNodes[a].InnerText).ToShortDateString();
+                                //break;
+
+                                //this.lblFecha.Text = Convert.ToDateTime(reader[i].ChildNodes[a].InnerText).ToShortDateString();
+                                string SHIPID = reader[i].ChildNodes[a].InnerText;
+                                for (int iContItems = 0; iContItems < this.cbShipVia.Items.Count; ++iContItems)
+                                {
+                                    string sCustomerCompleto = this.cbShipVia.Items[iContItems].ToString();
+                                    //string sCustomerCompleto = reader[i].ChildNodes[a].InnerText;
+                                    //string[] sCustomerDesglosado = sCustomerCompleto.Split('_');
+                                    string sCustomerID = sCustomerCompleto;
+                                    if (SHIPID == sCustomerID)
+                                    {
+                                        this.cbShipVia.SelectedIndex = iContItems;
+                                        //this.cbClientesChange();
+                                        break;
+                                    }
+                                }
+                                break;
+                            }
+                        case "Ship_Date":
+                            {
+                                //this.lblNumeroFactura.Text = reader[i].ChildNodes[a].InnerText;
+                                break;
+                            }
+                        case "Displayed_Terms":
+                            {
+                                if (controladorQuote == 1)
+                                {
+                                    //this.txtTerminos.Text = reader[i].ChildNodes[a].InnerText;
+                                }
+                                break;
+                            }
+                        case "Accounts_Receivable_Account":
+                            {
+                                if (controladorQuote == 1)
+                                {
+                                    //this.ARAccount.Text = reader[i].ChildNodes[a].InnerText;
+                                    ARAccountID = reader[i].ChildNodes[a].InnerText;
+                                }
+                                break;
+                            }
+                        case "Sales_Representative_ID":
+                            {
+                                //if (controladorQuote == 1)
+                                //{
+                                //    this.cbSalesRepresent.Text = reader[i].ChildNodes[a].InnerText;
+                                //}                                
+                                //break;
+
+                                if (controladorQuote == 1)
+                                {
+                                    //ALEX VER
+
+                                    //MessageBox.Show(reader[i].ChildNodes[a].InnerText);
+                                    SalesRepID = reader[i].ChildNodes[a].InnerText;
+                                    //MODIFICACION
+                                    for (int iContItems2 = 0; iContItems2 < this.cbSalesRepresent.Items.Count; ++iContItems2)
+                                    {
+                                        string sSalesRepCompleto = this.cbSalesRepresent.Items[iContItems2].ToString();
+                                        string[] sSalesRepDesglosado = sSalesRepCompleto.Split('_');
+                                        string sSalesRepID = sSalesRepDesglosado[0];
+                                        if (SalesRepID == sSalesRepID)
+                                        {
+                                            this.cbSalesRepresent.SelectedIndex = iContItems2;
+                                            //this.cbClientesChange();
+                                            break;
+                                        }
+                                    }
+                                }
+                                break;
+                            }
+                        case "Drop_Ship":
+                            {
+                                if (controladorQuote == 1)
+                                {
+                                    this.cbxDropShip.Text = reader[i].ChildNodes[a].InnerText;
+                                }
+                                break;
+                            }
+
+                        case "SOLines":
+                            {
+                                if (controladorQuote == 1)
+                                {
+                                    for (int b = 0; b <= reader[i].ChildNodes[a].ChildNodes.Count - 1; b++)
+                                    {
+                                        sItemId = "";
+                                        sItemCantidad = "";
+                                        sItemUnidadM = "";
+                                        sItemDescripcion = "";
+                                        sItemGLAccount = "";
+                                        sItemPrecioU = "";
+                                        sItemTaxType = "";
+                                        sNumDist = "0";
+
+                                        for (int c = 0; c <= reader[i].ChildNodes[a].ChildNodes[b].ChildNodes.Count - 1; c++)
+                                        {
+                                            switch (reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].Name)
+                                            {
+                                                case "Item_ID":
+                                                    {
+                                                        sItemId = reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].InnerText;
+                                                        break;
+                                                    }
+                                                case "Quantity":
+                                                    {
+                                                        sItemCantidad = reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].InnerText;
+                                                        break;
+                                                    }
+                                                case "UM_ID":
+                                                    {
+                                                        sItemUnidadM = reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].InnerText;
+                                                        break;
+                                                    }
+                                                case "SO_Description":
+                                                    {
+                                                        sItemDescripcion = reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].InnerText;
+                                                        break;
+                                                    }
+                                                case "GL_Account":
+                                                    {
+                                                        sItemGLAccount = reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].InnerText;
+                                                        break;
+                                                    }
+                                                case "Unit_Price":
+                                                    {
+                                                        sItemPrecioU = reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].InnerText;
+                                                        break;
+                                                    }
+                                                case "Tax_Type":
+                                                    {
+                                                        sItemTaxType = reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].InnerText;
+                                                        break;
+                                                    }
+                                                case "DistributionNumber":
+                                                    {
+                                                        sNumDist = reader[i].ChildNodes[a].ChildNodes[b].ChildNodes[c].InnerText;
+                                                        break;
+                                                    }
+                                            }
+                                        }
+
+                                        string cantidadTemporal = "";
+
+                                        if (sNumDist != "0")
+                                        {
+                                            DataRow drDetalleInvoiceCot = dtDetalleInvoice.NewRow();
+
+                                            if (sItemCantidad.Trim() == "")
+                                            {
+                                                drDetalleInvoiceCot["Cantidad"] = "1.00";
+                                                cantidadTemporal = "1.00";
+                                            }
+                                            else
+                                            {
+                                                double prueba3 = Convert.ToDouble(sItemCantidad);
+                                                drDetalleInvoiceCot["Cantidad"] = string.Format("{0:#,#0.000}", prueba3);
+                                                cantidadTemporal = string.Format("{0:#,#0.000}", prueba3);
+                                            }
+                                            drDetalleInvoiceCot["Items"] = sItemId;
+                                            drDetalleInvoiceCot["UnidadMedida"] = sItemUnidadM;
+                                            drDetalleInvoiceCot["Descripcion"] = sItemDescripcion;
+                                            drDetalleInvoiceCot["GLAccount"] = sItemGLAccount;
+                                            double prueba = Convert.ToDouble(sItemPrecioU);
+                                            drDetalleInvoiceCot["PrecioUnitario"] = string.Format("{0:#,#0.000}", prueba);
+                                            if (sItemTaxType.Trim() == "")
+                                            {
+                                                drDetalleInvoiceCot["Tax"] = "1";
+                                            }
+                                            else
+                                            {
+                                                drDetalleInvoiceCot["Tax"] = sItemTaxType;
+                                            }
+
+                                            double prueba2 = Convert.ToDouble(cantidadTemporal) * Convert.ToDouble(string.Format("{0:#,#0.00}", prueba));
+                                            drDetalleInvoiceCot["Monto"] = string.Format("{0:#,#0.00}", prueba2);
+                                            //drDetalleInvoiceCot["Monto"] = "";
+
+
+                                            drDetalleInvoiceCot["DN"] = sNumDist;
+
+                                            dtDetalleInvoice.Rows.Add(drDetalleInvoiceCot);
+                                            dtDetalleInvoice.AcceptChanges();
+                                            //    this.limpiarAddItem();
+                                            this.Sumar();
+                                            //}
+                                        }
+                                    }
+                                }
+                                break;
+                            }
+
+                        case "Note":
+                            {
+
+                                this.txtCustomeNote.Text = reader[i].ChildNodes[a].InnerText;
+                                break;
+                            }
+
+                        case "Internal_Note":
+                            {
+
+                                this.txtInternalNote.Text = reader[i].ChildNodes[a].InnerText;
+
+                                break;
+                            }
+
+                        case "Statement_Note":
+                            {
+
+                                this.txtStatementNote.Text = reader[i].ChildNodes[a].InnerText;
 
                                 break;
                             }
@@ -5843,6 +6485,18 @@ namespace MOFFIS
 
             return contador;
 
+        }
+
+        private void cmbTipo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbTipo.Text == "Cotizacion")
+            {
+                label36.Text = "Cotización :";
+            }
+            else if (cmbTipo.Text == "Orden de Venta")
+            {
+                label36.Text = "Orden de venta :";
+            }
         }
 
         //public unsafe void temporal()

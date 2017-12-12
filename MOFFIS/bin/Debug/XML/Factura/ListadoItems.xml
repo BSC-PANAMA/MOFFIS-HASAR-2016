@@ -2,6 +2,100 @@
 xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 <PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">200003</ID>
+	<Description>CEMENTO INTEROCEANICO</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>CEMENTO INTEROCEANICO</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>199.73000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{525CBD50-C361-48E4-A195-88BC21DD57D2}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">600001</ID>
+	<Description>FLETE TRANSPORTE</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>FLETE TRANSPORTE</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>7.75000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">6000</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{3D2B6999-4AE5-466B-BA27-3252CDFE16B9}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5400</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{21FE8604-3721-4A07-974E-6D50C9C7E083}</GL_COGSSalary_Acct_GUID>
+	<GUID>{B1728A83-DE81-41D7-B74A-801CCF3FE63A}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
 	<ID xsi:type="paw:id">7451000700507</ID>
 	<Description>CAFE DURAN</Description>
 	<isInactive>FALSE</isInactive>
@@ -139,6 +233,100 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
 	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
 	<GUID>{0073B953-535F-410B-B008-76A939982DA1}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">DESCUENTO</ID>
+	<Description>descuento en ventas</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>descuento en ventas</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{3A12BA9B-4F76-4EB8-96F2-2D8237C605D4}</GUID>
+	<IsTaxable>TRUE</IsTaxable>
+	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">DESCUENTOJ</ID>
+	<Description>descuento en ventas juvilado</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>descuento en ventas juvilado</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>0</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{15CD394A-BC0E-4A52-8933-793B7CBBB8EA}</GUID>
 	<IsTaxable>TRUE</IsTaxable>
 	<Tax_Type_Name>Regular</Tax_Type_Name>
 </PAW_Item>
@@ -580,13 +768,13 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Sales_Price>0.00000</Sales_Price>
 	</Sales_Price_Info>
 	<Sales_Price_Info Key="4">
-	<Sales_Price>0.00000</Sales_Price>
+	<Sales_Price>30.00000</Sales_Price>
 	</Sales_Price_Info>
 	<Sales_Price_Info Key="5">
-	<Sales_Price>0.00000</Sales_Price>
+	<Sales_Price>100.00000</Sales_Price>
 	</Sales_Price_Info>
 	<Sales_Price_Info Key="6">
-	<Sales_Price>0.00000</Sales_Price>
+	<Sales_Price>200.00000</Sales_Price>
 	</Sales_Price_Info>
 	<Sales_Price_Info Key="7">
 	<Sales_Price>0.00000</Sales_Price>
@@ -610,6 +798,53 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<GUID>{60F8A75B-C0FB-45FC-90CA-F26205794DD7}</GUID>
 	<IsTaxable>TRUE</IsTaxable>
 	<Tax_Type_Name>Regular</Tax_Type_Name>
+</PAW_Item>
+<PAW_Item xsi:type="paw:item">
+	<ID xsi:type="paw:id">pruebadescuento</ID>
+	<Description>descuento</Description>
+	<isInactive>FALSE</isInactive>
+	<Description_for_Sales>prueba de descuento</Description_for_Sales>
+	<Sales_Prices>
+	<Sales_Price_Info Key="1">
+	<Sales_Price>100.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="2">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="3">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="4">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="5">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="6">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="7">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="8">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="9">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+	<Sales_Price_Info Key="10">
+	<Sales_Price>0.00000</Sales_Price>
+	</Sales_Price_Info>
+</Sales_Prices>	<Tax_Type>19</Tax_Type>
+	<GL_Sales_Account xsi:type="paw:id">4000</GL_Sales_Account>
+	<GL_Sales_Account_GUID>{C01F05BF-8D7D-497C-8C0C-F1466A7450CF}</GL_Sales_Account_GUID>
+	<GL_Inventory_Account xsi:type="paw:id">1200</GL_Inventory_Account>
+	<GL_Inventory_Account_GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GL_Inventory_Account_GUID>
+	<GL_COGSSalary_Acct xsi:type="paw:id">5000</GL_COGSSalary_Acct>
+	<GL_COGSSalary_Acct_GUID>{5E20C8D5-5EAF-4111-B03B-7C5560408F1F}</GL_COGSSalary_Acct_GUID>
+	<GUID>{02F66981-5912-4DB7-9366-68F378416F58}</GUID>
+	<IsTaxable>FALSE</IsTaxable>
+	<Tax_Type_Name>Exempt</Tax_Type_Name>
 </PAW_Item>
 <PAW_Item xsi:type="paw:item">
 	<ID xsi:type="paw:id">STE L675</ID>

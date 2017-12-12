@@ -37,6 +37,13 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<GUID>{73834BD4-D68B-4088-A721-22121D6D1CFE}</GUID>
 </PAW_Account>
 <PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">1205</ID>
+	<Description>MERCANCIA EN TRANSITO</Description>
+	<Type>2</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{5EFAD1E2-0D59-4B20-8269-B49848FE8189}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
 	<ID xsi:type="paw:id">1400</ID>
 	<Description>Prepaid Expenses</Description>
 	<Type>4</Type>
@@ -364,5 +371,12 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Type>24</Type>
 	<isInactive>FALSE</isInactive>
 	<GUID>{420914F0-6522-4A23-BB11-6EB39C826591}</GUID>
+</PAW_Account>
+<PAW_Account xsi:type="paw:account">
+	<ID xsi:type="paw:id">7000</ID>
+	<Description>Retencion de ITBMS</Description>
+	<Type>12</Type>
+	<isInactive>FALSE</isInactive>
+	<GUID>{878185A5-A9D1-4484-AAB1-F24BBAC5619B}</GUID>
 </PAW_Account>
 </PAW_Accounts>

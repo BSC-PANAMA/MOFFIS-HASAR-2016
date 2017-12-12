@@ -2,6 +2,88 @@
 xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 <PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">AIDA RAMOS</ID>
+	<Name>AIDA RAMOS</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+	<Line1>villa campestres</Line1>
+	<Line2>las cumbre</Line2>
+</BillToAddress>	<PhoneNumbers>
+	<PhoneNumber Key="1">236236</PhoneNumber>
+	<PhoneNumber Key="2">1233126</PhoneNumber>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">GRACE CARVAJAL</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>5090.29</Customer_Balance>
+	<GUID>{A13B1E55-1513-452B-992F-78993B1E2AC6}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">ANSELMO BECKFORD</ID>
+	<Name>ANSELMO BECKFORD</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">SARA BECKFORD</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>1955.67</Customer_Balance>
+	<GUID>{ABB60926-1B9A-4118-B50B-00A97E66FEEB}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">ANSELMO BECKFORD2</ID>
+	<Name>ANSELMO BECKFORD</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">BRIAN BECKFORD</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>145.42</Customer_Balance>
+	<GUID>{85FBFCBA-209A-49A0-8924-22E6F03302E3}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
 	<ID xsi:type="paw:id">AutoridadMaritima</ID>
 	<Name>Autoridad Maritima de Panama</Name>
 	<isInactive>FALSE</isInactive>
@@ -19,7 +101,7 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">2/6/15</Customer_Since_Date>
@@ -47,7 +129,7 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">8/2/14</Customer_Since_Date>
@@ -74,7 +156,7 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/22/11</Customer_Since_Date>
@@ -100,12 +182,38 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">7/25/14</Customer_Since_Date>
-	<Customer_Balance>701.11</Customer_Balance>
+	<Customer_Balance>690.41</Customer_Balance>
 	<GUID>{E0F7B5B1-A52E-4EF7-8FE3-F739A55FAF57}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">Eco-Klean, SA</ID>
+	<Name>Eco-Klean, SA</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">6/30/15</Customer_Since_Date>
+	<Customer_Balance>14769.40</Customer_Balance>
+	<GUID>{41AFE2CB-8249-4B99-9E52-4FAE9614C98A}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
 <PAW_Customer xsi:type="paw:customer">
@@ -135,7 +243,7 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1">customizable 1</Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/21/14</Customer_Since_Date>
@@ -163,11 +271,11 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1">afddasfasfsafsafasdfsdafsdfsdfdsafasdfas</Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">1/22/15</Customer_Since_Date>
-	<Customer_Balance>2283.14</Customer_Balance>
+	<Customer_Balance>2291.43</Customer_Balance>
 	<GUID>{27C37A16-C020-4286-AC21-A9A53EB8C8AC}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
@@ -190,12 +298,142 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1">RUC 442513-1-5354245456</Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/22/11</Customer_Since_Date>
-	<Customer_Balance>478.01</Customer_Balance>
+	<Customer_Balance>1096.63</Customer_Balance>
 	<GUID>{FA32C863-9AE1-4AF0-96FB-46AE93F9FBD6}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">FREDDY CALDERON</ID>
+	<Name>FREDDY CALDERON</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">FREDDY CALDERON</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>100.00</Customer_Balance>
+	<GUID>{1CB55793-9718-4045-A9A3-686051D3E4E2}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">FREDDY CALDERON2</ID>
+	<Name>FREDDY CALDERON</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">LEANNE CALDERON</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>125.00</Customer_Balance>
+	<GUID>{169CC0D9-017C-4CCE-9733-B343E04BF7DA}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">JANISETH SOBRINO</ID>
+	<Name>JANISETH SOBRINO</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">MARJORIE ORTEGA</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>156.98</Customer_Balance>
+	<GUID>{8EFED012-EAAD-4F11-A34F-9A773EF140F9}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">JESENA LEWIS</ID>
+	<Name>JESENA LEWIS</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">RAYZA WARREN</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>156.58</Customer_Balance>
+	<GUID>{710E9939-0882-4FDD-A466-E5E4D377B337}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">JULISSA GARCIA</ID>
+	<Name>JULISSA GARCIA</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">JOSE MARMOLEJO</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>100.00</Customer_Balance>
+	<GUID>{7AB2891F-9F59-4FBA-B920-7FDB2C820B09}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
 <PAW_Customer xsi:type="paw:customer">
@@ -218,12 +456,123 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1">JDFKLAJSLÑDFJLÑAJSLÑFJÑAKLSDJÑFLJALÑSKDF</Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/22/11</Customer_Since_Date>
-	<Customer_Balance>39099.75</Customer_Balance>
+	<Customer_Balance>131606.96</Customer_Balance>
 	<GUID>{0110CFB2-0D3F-4AC9-B85A-C6E4C06B5E0A}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">lol</ID>
+	<Name>loln</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Balance>0.00</Customer_Balance>
+	<GUID>{D14565E1-23B2-49CD-9BB6-68C7695FCFD7}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">MARIBEL ALVAREZ</ID>
+	<Name>MARIBEL ALVAREZ</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">ETHAN GONZALEZ</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>60.00</Customer_Balance>
+	<GUID>{D98B3CFA-2247-4460-99D0-AA2CCDD7D07A}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">martinwz</ID>
+	<Name>martinez mendoza</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
+</PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">2/6/17</Customer_Since_Date>
+	<Customer_Balance>0.00</Customer_Balance>
+	<GUID>{3340C2D2-3AD8-40A6-BEBE-3F6682ABC4DD}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">MOFFISOKI</ID>
+	<Name>EJEMPLO PARA MOFFIS OKI</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+	<Line1>wwrw</Line1>
+	<Line2>qweqwrqwe</Line2>
+	<City>panama</City>
+	<Zip>12563</Zip>
+</BillToAddress>	<PhoneNumbers>
+	<PhoneNumber Key="1">465464</PhoneNumber>
+	<PhoneNumber Key="2">56465456</PhoneNumber>
+</PhoneNumbers>	<Sales_Representative_ID xsi:type="paw:id">FG-278</Sales_Representative_ID>
+	<Sales_Rep_GUID>{8251A106-79A9-44B2-80D3-D19580B196B0}</Sales_Rep_GUID>
+	<Pricing_Level>0</Pricing_Level>
+	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1"></Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">7/15/15</Customer_Since_Date>
+	<Customer_Balance>0.00</Customer_Balance>
+	<GUID>{B0732E6F-30FA-4BE1-8F66-6223013597DD}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
 <PAW_Customer xsi:type="paw:customer">
@@ -246,11 +595,11 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">6/11/14</Customer_Since_Date>
-	<Customer_Balance>22986.28</Customer_Balance>
+	<Customer_Balance>42848.32</Customer_Balance>
 	<GUID>{E6DE25E0-6D62-449A-A156-1A17A7D466EC}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
@@ -272,7 +621,7 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">6/11/14</Customer_Since_Date>
@@ -298,7 +647,7 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">6/11/14</Customer_Since_Date>
@@ -324,7 +673,7 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">2/6/15</Customer_Since_Date>
@@ -350,11 +699,11 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/16/14</Customer_Since_Date>
-	<Customer_Balance>726.61</Customer_Balance>
+	<Customer_Balance>8514.06</Customer_Balance>
 	<GUID>{B475450B-079C-417D-852F-977E863E0B2F}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
@@ -376,7 +725,7 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
+	<Description>Estudiante</Description>
 	<Value Index="1"></Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/16/14</Customer_Since_Date>
@@ -402,11 +751,11 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
-	<Value Index="1"></Value>
+	<Description>Estudiante</Description>
+	<Value Index="1">prueba1</Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/16/14</Customer_Since_Date>
-	<Customer_Balance>2757.42</Customer_Balance>
+	<Customer_Balance>2818.39</Customer_Balance>
 	<GUID>{711FC619-7554-45DC-BE8A-C2786A8AEAE4}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
@@ -428,11 +777,11 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>TRUE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
-	<Value Index="1"></Value>
+	<Description>Estudiante</Description>
+	<Value Index="1">prueba1</Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/16/14</Customer_Since_Date>
-	<Customer_Balance>27.77</Customer_Balance>
+	<Customer_Balance>1027.77</Customer_Balance>
 	<GUID>{65536783-06EA-459B-8085-CA3EC224E24B}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
@@ -454,11 +803,11 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
-	<Value Index="1"></Value>
+	<Description>Estudiante</Description>
+	<Value Index="1">prueba1</Value>
 	</CustomField>
 </CustomFields>	<Customer_Since_Date xsi:type="paw:date">10/21/14</Customer_Since_Date>
-	<Customer_Balance>626.12</Customer_Balance>
+	<Customer_Balance>6176.21</Customer_Balance>
 	<GUID>{8190A1BF-3148-43F5-BFE7-2604FF5B9E20}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
@@ -473,6 +822,34 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 </BillToAddress>	<PhoneNumbers>
 	<PhoneNumber Key="1">12563</PhoneNumber>
 	<PhoneNumber Key="2">4784</PhoneNumber>
+</PhoneNumbers>	<Sales_Representative_ID xsi:type="paw:id">FG-278</Sales_Representative_ID>
+	<Sales_Rep_GUID>{8251A106-79A9-44B2-80D3-D19580B196B0}</Sales_Rep_GUID>
+	<Pricing_Level>4</Pricing_Level>
+	<Pricing_Level_Text>Price Level 5</Pricing_Level_Text>
+	<Use_COD_Terms>FALSE</Use_COD_Terms>
+	<Use_Prepaid_Terms>FALSE</Use_Prepaid_Terms>
+	<Terms_Type>FALSE</Terms_Type>
+	<Due_Days>30</Due_Days>
+	<Discount_Days>10</Discount_Days>
+	<Discount_Percent>2.00000</Discount_Percent>
+	<Credit_Limit>2500.00</Credit_Limit>
+	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
+	<CustomFields>
+	<CustomField>
+	<Description>Estudiante</Description>
+	<Value Index="1">ejemplo1</Value>
+	</CustomField>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">11/14/14</Customer_Since_Date>
+	<Customer_Balance>100.00</Customer_Balance>
+	<GUID>{CA00CD38-2526-47B7-875E-EF2F82358D57}</GUID>
+	<Credit_Status>1</Credit_Status>
+</PAW_Customer>
+<PAW_Customer xsi:type="paw:customer">
+	<ID xsi:type="paw:id">XENIA DE LEON</ID>
+	<Name>XENIA DE LEON</Name>
+	<isInactive>FALSE</isInactive>
+	<BillToAddress>
+</BillToAddress>	<PhoneNumbers>
 </PhoneNumbers>	<Pricing_Level>0</Pricing_Level>
 	<Pricing_Level_Text>Price Level 1</Pricing_Level_Text>
 	<Use_COD_Terms>FALSE</Use_COD_Terms>
@@ -485,12 +862,12 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 	<Use_Due_Month_End_Terms>FALSE</Use_Due_Month_End_Terms>
 	<CustomFields>
 	<CustomField>
-	<Description>Second Contact</Description>
-	<Value Index="1"></Value>
+	<Description>Estudiante</Description>
+	<Value Index="1">XELENE CARBALLO</Value>
 	</CustomField>
-</CustomFields>	<Customer_Since_Date xsi:type="paw:date">11/14/14</Customer_Since_Date>
-	<Customer_Balance>0.00</Customer_Balance>
-	<GUID>{CA00CD38-2526-47B7-875E-EF2F82358D57}</GUID>
+</CustomFields>	<Customer_Since_Date xsi:type="paw:date">5/21/15</Customer_Since_Date>
+	<Customer_Balance>50.00</Customer_Balance>
+	<GUID>{7121C88F-FF70-4604-9B74-AA46D7ACE870}</GUID>
 	<Credit_Status>1</Credit_Status>
 </PAW_Customer>
 </PAW_Customers>

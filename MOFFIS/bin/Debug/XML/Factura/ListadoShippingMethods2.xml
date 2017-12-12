@@ -44,12 +44,12 @@ xmlns:xsd="http://www.w3.org/2000/10/XMLSchema-datatypes">
 </PAW_Shipping_Method>
 <PAW_Shipping_Method xsi:type="paw:ship_method">
 	<Number>8</Number>
-	<ShippingMethod>Fed-EX</ShippingMethod>
+	<ShippingMethod>CONTADO</ShippingMethod>
 	<GUID>{77639000-4E44-4764-9DDD-B6ADA5F05DBE}</GUID>
 </PAW_Shipping_Method>
 <PAW_Shipping_Method xsi:type="paw:ship_method">
 	<Number>9</Number>
-	<ShippingMethod>Best Way</ShippingMethod>
+	<ShippingMethod>CREDITO</ShippingMethod>
 	<GUID>{454D67AC-312B-4bb1-8B43-B6E6D90092FE}</GUID>
 </PAW_Shipping_Method>
 </PAW_Shipping_Methods>

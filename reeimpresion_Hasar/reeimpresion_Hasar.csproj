@@ -57,7 +57,7 @@
     <Reference Include="Interop.PeachwServer, Version=22.0.0.0, Culture=neutral, PublicKeyToken=d06c16dde04d83e4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
-      <HintPath>..\..\..\..\..\PEACH_DLL\2016\Interop.PeachwServer.dll</HintPath>
+      <HintPath>C:\BS&amp;C\PEACH_DLL\2013\Interop.PeachwServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />

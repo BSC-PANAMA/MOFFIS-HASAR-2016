@@ -845,7 +845,6 @@ F:\proyectos\visual studio\MOFFIS-HASAR-2016\MOFFIS\bin\Debug\MOFFIS.exe.config
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\MOFFIS\bin\Debug\MOFFIS.exe
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\MOFFIS\bin\Debug\MOFFIS.pdb
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\MOFFIS\bin\Debug\stdole.dll
-F:\proyectos\visual studio\MOFFIS-HASAR-2016\MOFFIS\obj\Debug\MOFFIS.csprojResolveAssemblyReference.cache
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\MOFFIS\obj\Debug\MOFFIS.AboutBox1.resources
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\MOFFIS\obj\Debug\MOFFIS.frmAccountingPeriods.resources
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\MOFFIS\obj\Debug\MOFFIS.frmActiveGLAccts.resources

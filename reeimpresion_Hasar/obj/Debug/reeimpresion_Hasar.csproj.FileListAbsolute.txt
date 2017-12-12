@@ -62,9 +62,9 @@ F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\bin\Debug\reeimp
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.exe
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\bin\Debug\reeimpresion_Hasar.pdb
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\bin\Debug\TFHKADIR.dll
-F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csprojResolveAssemblyReference.cache
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Form1.resources
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.Properties.Resources.resources
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csproj.GenerateResource.Cache
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.exe
 F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.pdb
+F:\proyectos\visual studio\MOFFIS-HASAR-2016\reeimpresion_Hasar\obj\Debug\reeimpresion_Hasar.csprojResolveAssemblyReference.cache

@@ -141,6 +141,9 @@
   <metadata name="Monto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="DN.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Editar.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -151,7 +154,7 @@
   <data name="btnAgregarProducto.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsGAAALBgFkNOkkAAAFlUlE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsDAAALAwFJjozSAAAFlUlE
         QVRYR8XUeVCUdRgH8McLx6a8UY5VLjNh2UzLYsyLzPBAkYRE0UYzwTHNA7cBBGS5FkRgWe5DRTQDg0AJ
         3UG52eUQQS4xDw7xYhQyERhq5Ol5N2x849eO9Ie9M59h57vP7/3+3nd5X0DE/xUzfJ2Y4evEDB931/B0
         9NRD+7NyrXONy8WJldOTjl0xSWBJqJx2POu6tXv373fHPO/vhT+ed/GwupjhjcepPLc7M0HV6u54vGo+
@@ -204,7 +207,7 @@
   <data name="btnGuardar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsGAAALBgFkNOkkAAAH5ElE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsDAAALAwFJjozSAAAH5ElE
         QVRYR8WXC1DUxx3H12pGx3SatrFNJ53W2oRqFNEgAiIqSlQQFIgvgkKiJlFQo5y85FAUCSgQxQfv846X
         vARBpZqa2sapaB21RkB5icDdcRyvBPAJHH772/XOon+cdjKd5GY+s/vf/e3v993f7sz+jgH4URly8Idk
         yMEfkmedAYNBwpMnT5her7e5VVmZdKeuTtHU1JSm02rTWnS6NH1LS5peb4T6fExLc40NDWl1tbWKyoqK

@@ -29,24 +29,14 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCrearInvoices));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCrearInvoices));
             this.cbItems = new System.Windows.Forms.ComboBox();
             this.dgvDetalleInvoice = new System.Windows.Forms.DataGridView();
-            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Items = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UnidadMedida = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GLAccount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PrecioUnitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tax = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Monto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Editar = new System.Windows.Forms.DataGridViewLinkColumn();
-            this.Eliminar = new System.Windows.Forms.DataGridViewLinkColumn();
             this.panelProductos = new System.Windows.Forms.Panel();
             this.txtPrecioUnitario = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -157,6 +147,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.lvListadoCotizaciones = new System.Windows.Forms.ListView();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.dtp2 = new System.Windows.Forms.DateTimePicker();
@@ -200,6 +191,17 @@
             this.lblDiscountDate = new System.Windows.Forms.Label();
             this.lblDiscountA = new System.Windows.Forms.Label();
             this.lblDateDue = new System.Windows.Forms.Label();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Items = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UnidadMedida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GLAccount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PrecioUnitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tax = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Monto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Editar = new System.Windows.Forms.DataGridViewLinkColumn();
+            this.Eliminar = new System.Windows.Forms.DataGridViewLinkColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleInvoice)).BeginInit();
             this.panelProductos.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -266,6 +268,7 @@
             this.PrecioUnitario,
             this.Tax,
             this.Monto,
+            this.DN,
             this.Editar,
             this.Eliminar});
             this.dgvDetalleInvoice.Location = new System.Drawing.Point(3, 202);
@@ -274,95 +277,6 @@
             this.dgvDetalleInvoice.TabIndex = 6;
             this.dgvDetalleInvoice.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetalleInvoice_CellClick);
             this.dgvDetalleInvoice.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetalleInvoice_CellContentClick);
-            // 
-            // Cantidad
-            // 
-            this.Cantidad.DataPropertyName = "Cantidad";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Cantidad.HeaderText = "Cantidad";
-            this.Cantidad.Name = "Cantidad";
-            this.Cantidad.ReadOnly = true;
-            this.Cantidad.Width = 70;
-            // 
-            // Items
-            // 
-            this.Items.DataPropertyName = "Items";
-            this.Items.HeaderText = "Productos";
-            this.Items.Name = "Items";
-            this.Items.ReadOnly = true;
-            this.Items.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Items.Width = 130;
-            // 
-            // UnidadMedida
-            // 
-            this.UnidadMedida.DataPropertyName = "UnidadMedida";
-            this.UnidadMedida.HeaderText = "UnidadMedida";
-            this.UnidadMedida.Name = "UnidadMedida";
-            this.UnidadMedida.ReadOnly = true;
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.DataPropertyName = "Descripcion";
-            this.Descripcion.HeaderText = "Descripcion";
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.Width = 175;
-            // 
-            // GLAccount
-            // 
-            this.GLAccount.DataPropertyName = "GLAccount";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.GLAccount.DefaultCellStyle = dataGridViewCellStyle3;
-            this.GLAccount.HeaderText = "GL Account";
-            this.GLAccount.Name = "GLAccount";
-            this.GLAccount.ReadOnly = true;
-            this.GLAccount.Width = 90;
-            // 
-            // PrecioUnitario
-            // 
-            this.PrecioUnitario.DataPropertyName = "PrecioUnitario";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.PrecioUnitario.DefaultCellStyle = dataGridViewCellStyle4;
-            this.PrecioUnitario.HeaderText = "P. Unitario";
-            this.PrecioUnitario.Name = "PrecioUnitario";
-            this.PrecioUnitario.ReadOnly = true;
-            this.PrecioUnitario.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.PrecioUnitario.Width = 85;
-            // 
-            // Tax
-            // 
-            this.Tax.DataPropertyName = "Tax";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Tax.DefaultCellStyle = dataGridViewCellStyle5;
-            this.Tax.HeaderText = "Tax";
-            this.Tax.Name = "Tax";
-            this.Tax.ReadOnly = true;
-            this.Tax.Width = 30;
-            // 
-            // Monto
-            // 
-            this.Monto.DataPropertyName = "Monto";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Monto.DefaultCellStyle = dataGridViewCellStyle6;
-            this.Monto.HeaderText = "Monto";
-            this.Monto.Name = "Monto";
-            this.Monto.ReadOnly = true;
-            // 
-            // Editar
-            // 
-            this.Editar.HeaderText = "Editar";
-            this.Editar.Name = "Editar";
-            this.Editar.Text = "Editar";
-            this.Editar.UseColumnTextForLinkValue = true;
-            this.Editar.Width = 75;
-            // 
-            // Eliminar
-            // 
-            this.Eliminar.HeaderText = "Eliminar";
-            this.Eliminar.Name = "Eliminar";
-            this.Eliminar.Text = "Eliminar";
-            this.Eliminar.UseColumnTextForLinkValue = true;
-            this.Eliminar.Width = 75;
             // 
             // panelProductos
             // 
@@ -1621,6 +1535,7 @@
             // 
             this.panel14.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel14.Controls.Add(this.cmbTipo);
             this.panel14.Controls.Add(this.label40);
             this.panel14.Controls.Add(this.label41);
             this.panel14.Controls.Add(this.dtp2);
@@ -1633,6 +1548,18 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(990, 419);
             this.panel14.TabIndex = 122;
+            // 
+            // cmbTipo
+            // 
+            this.cmbTipo.FormattingEnabled = true;
+            this.cmbTipo.Items.AddRange(new object[] {
+            "Cotizacion",
+            "Orden de Venta"});
+            this.cmbTipo.Location = new System.Drawing.Point(853, 160);
+            this.cmbTipo.Name = "cmbTipo";
+            this.cmbTipo.Size = new System.Drawing.Size(121, 21);
+            this.cmbTipo.TabIndex = 173;
+            this.cmbTipo.SelectedIndexChanged += new System.EventHandler(this.cmbTipo_SelectedIndexChanged);
             // 
             // label40
             // 
@@ -2070,6 +1997,102 @@
             this.lblDateDue.TabIndex = 0;
             this.lblDateDue.Text = "Due Date:";
             // 
+            // Cantidad
+            // 
+            this.Cantidad.DataPropertyName = "Cantidad";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.ReadOnly = true;
+            this.Cantidad.Width = 70;
+            // 
+            // Items
+            // 
+            this.Items.DataPropertyName = "Items";
+            this.Items.HeaderText = "Productos";
+            this.Items.Name = "Items";
+            this.Items.ReadOnly = true;
+            this.Items.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Items.Width = 130;
+            // 
+            // UnidadMedida
+            // 
+            this.UnidadMedida.DataPropertyName = "UnidadMedida";
+            this.UnidadMedida.HeaderText = "UnidadMedida";
+            this.UnidadMedida.Name = "UnidadMedida";
+            this.UnidadMedida.ReadOnly = true;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.DataPropertyName = "Descripcion";
+            this.Descripcion.HeaderText = "Descripcion";
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.Width = 175;
+            // 
+            // GLAccount
+            // 
+            this.GLAccount.DataPropertyName = "GLAccount";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.GLAccount.DefaultCellStyle = dataGridViewCellStyle3;
+            this.GLAccount.HeaderText = "GL Account";
+            this.GLAccount.Name = "GLAccount";
+            this.GLAccount.ReadOnly = true;
+            this.GLAccount.Width = 90;
+            // 
+            // PrecioUnitario
+            // 
+            this.PrecioUnitario.DataPropertyName = "PrecioUnitario";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.PrecioUnitario.DefaultCellStyle = dataGridViewCellStyle4;
+            this.PrecioUnitario.HeaderText = "P. Unitario";
+            this.PrecioUnitario.Name = "PrecioUnitario";
+            this.PrecioUnitario.ReadOnly = true;
+            this.PrecioUnitario.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.PrecioUnitario.Width = 85;
+            // 
+            // Tax
+            // 
+            this.Tax.DataPropertyName = "Tax";
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Tax.DefaultCellStyle = dataGridViewCellStyle5;
+            this.Tax.HeaderText = "Tax";
+            this.Tax.Name = "Tax";
+            this.Tax.ReadOnly = true;
+            this.Tax.Width = 30;
+            // 
+            // Monto
+            // 
+            this.Monto.DataPropertyName = "Monto";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Monto.DefaultCellStyle = dataGridViewCellStyle6;
+            this.Monto.HeaderText = "Monto";
+            this.Monto.Name = "Monto";
+            this.Monto.ReadOnly = true;
+            // 
+            // DN
+            // 
+            this.DN.DataPropertyName = "DN";
+            this.DN.HeaderText = "DN";
+            this.DN.Name = "DN";
+            this.DN.Visible = false;
+            // 
+            // Editar
+            // 
+            this.Editar.HeaderText = "Editar";
+            this.Editar.Name = "Editar";
+            this.Editar.Text = "Editar";
+            this.Editar.UseColumnTextForLinkValue = true;
+            this.Editar.Width = 75;
+            // 
+            // Eliminar
+            // 
+            this.Eliminar.HeaderText = "Eliminar";
+            this.Eliminar.Name = "Eliminar";
+            this.Eliminar.Text = "Eliminar";
+            this.Eliminar.UseColumnTextForLinkValue = true;
+            this.Eliminar.Width = 75;
+            // 
             // frmCrearInvoices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2285,16 +2308,6 @@
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label lblCreditStatus;
         private System.Windows.Forms.Label lblCreditLimit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Items;
-        private System.Windows.Forms.DataGridViewTextBoxColumn UnidadMedida;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn GLAccount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PrecioUnitario;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Tax;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Monto;
-        private System.Windows.Forms.DataGridViewLinkColumn Editar;
-        private System.Windows.Forms.DataGridViewLinkColumn Eliminar;
         private System.Windows.Forms.DateTimePicker dtp2;
         private System.Windows.Forms.DateTimePicker dtp1;
         private System.Windows.Forms.Label label40;
@@ -2324,5 +2337,17 @@
         private System.Windows.Forms.TextBox txtCustomeNote;
         private System.Windows.Forms.TextBox txtStatementNote;
         private System.Windows.Forms.TextBox txtInternalNote;
+        private System.Windows.Forms.ComboBox cmbTipo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Items;
+        private System.Windows.Forms.DataGridViewTextBoxColumn UnidadMedida;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GLAccount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PrecioUnitario;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tax;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Monto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DN;
+        private System.Windows.Forms.DataGridViewLinkColumn Editar;
+        private System.Windows.Forms.DataGridViewLinkColumn Eliminar;
     }
 }

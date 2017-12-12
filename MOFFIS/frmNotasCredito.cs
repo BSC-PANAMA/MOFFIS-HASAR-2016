@@ -2441,7 +2441,24 @@ namespace MOFFIS
                         //comando = "B" + FS + Descripcion + FS + cantidad2 + FS + precioU + FS + codigoI + FS + "M" + FS + "12345";
                         if (CodigoProducto == "C")
                         {
-                            comando = "B" + FS + sDescripcion1 + FS + cantidad2 + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+
+
+                            if(precioU.Contains("-"))
+                            {
+                                double remplazo = Convert.ToDouble(precioU) * -1;
+                                precioU = string.Format("{0:##0.000}", remplazo);
+                                comando = "B" + FS + sDescripcion1 + FS + cantidad2 + FS + precioU + FS + codigoI + FS + "m" + FS + itemID;
+                            }
+                            else
+                            {
+                                comando = "B" + FS + sDescripcion1 + FS + cantidad2 + FS + precioU + FS + codigoI + FS + "M" + FS + itemID;
+                            }
+
+                            
+
+
+
+
                             HASAR.LimpiarDoc();
                             mensaje = HASAR.MandaPaqueteFiscal(handler, comando).ToString();
 
@@ -2461,7 +2478,23 @@ namespace MOFFIS
                         }
                         else
                         {
-                            comando = "B" + FS + sDescripcion1 + FS + cantidad2 + FS + precioU + FS + codigoI + FS + "M" + FS + "*****";
+
+
+                            if (precioU.Contains("-"))
+                            {
+                                double remplazo = Convert.ToDouble(precioU) * -1;
+                                precioU = string.Format("{0:##0.000}", remplazo);
+                                comando = "B" + FS + sDescripcion1 + FS + cantidad2 + FS + precioU + FS + codigoI + FS + "m" + FS + "*****";
+                            }
+                            else
+                            {
+                                comando = "B" + FS + sDescripcion1 + FS + cantidad2 + FS + precioU + FS + codigoI + FS + "M" + FS + "*****";
+                            }
+
+                                
+
+
+
                             HASAR.LimpiarDoc();
                             mensaje = HASAR.MandaPaqueteFiscal(handler, comando).ToString();
 
